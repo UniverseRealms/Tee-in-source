@@ -16,6 +16,8 @@ namespace wServer.logic.behaviors.PetBehaviors
 
         private void AttackShort(Entity host, RealmTime time, ref object state)
         {
+           
+                
 
         }
 

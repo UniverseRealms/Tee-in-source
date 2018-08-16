@@ -16681,3 +16681,17 @@ Port: 2050
 2018-08-15 22:39:17,129 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
 2018-08-15 22:47:58,512 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
 2018-08-15 22:48:13,968 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-16 00:13:42,658 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-16 00:16:04,168 [3] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-08-16 00:16:45,316 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-16 00:25:33,140 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-16 00:26:57,566 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-16 01:35:06,967 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-16 02:11:40,547 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-16 02:11:46,290 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.app.getLanguageStrings.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\app\getLanguageStrings.cs:line 37
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156

@@ -2,35 +2,90 @@
 
 <Objects>
 
-
+        <Object type="0x7006" id="Infinite Flames Sword">
+	<Class>Projectile</Class>
+<Texture>
+         <File>lofiObjBig</File>
+         <Index>0x20</Index>
+      </Texture>
+<AngleCorrection>1</AngleCorrection>
+</Object>
   
-  <Object type="0x7005" id="Seal of Understanding">
+    <Object type="0x7005" id="Blade of Flame Justice">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x30</Index>
+      </Texture>
+      <scalevalue>1</scalevalue>
+      <SlotType>1</SlotType>
+      <Description>{A fiery blade that holds the ancient power of creating life and deleting death.}</Description>
+      <RateOfFire>0.65</RateOfFire>
+      <Sound>weapon/fire_sword</Sound>
+      <Projectile>
+         <ObjectId>Infinite Flames Sword</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>115</MinDamage>
+         <MaxDamage>535</MaxDamage>
+         <LifetimeMS>390</LifetimeMS>
+      </Projectile>
+      <BagType>6</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>1600</feedPower>
+      <DisplayId>{Blade of Flame Justice}</DisplayId>
+   </Object>
+  
+
+    <Object type="0x7004" id="Common Daily Quest Token">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
          <File>lofiObj4</File>
          <Index>0xff</Index>
       </Texture>
-     <ExtraTooltipData>
-         <EffectInfo name="Ability" description="Pressing space releases a powerful magic nova"/>
-         <EffectInfo name="" description="{equip.Speedy_on_self}"/>
-      </ExtraTooltipData>
-      <Projectile>
-         <ObjectId>White Bolt</ObjectId>
-         <Speed>160</Speed>
-         <MinDamage>90</MinDamage>
-         <MaxDamage>115</MaxDamage>
-         <LifetimeMS>1000</LifetimeMS>
-      </Projectile>
-      <SlotType>12</SlotType>
-      <Description>{A seal that understands how to control the magic it holds.}</Description>
-      <Sound>spell/light_heal</Sound>
-      <Usable/>
-      <BagType>6</BagType>
-      <MpCost>85</MpCost>
-      <Activate effect="Damaging" duration="2.5" range="4.5" color="0x800080" target="player" center="player" visualEffect="0" useWisMod="true">MagicNovaSeal</Activate>
-      <feedPower>540</feedPower>
-      <DisplayId>{Seal of Understanding}</DisplayId>
+      <SlotType>90</SlotType>
+      <Tier>11</Tier>
+      <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <Soulbound/>
+      <DisplayId>{Common Daily Quest Token}</DisplayId>
+   </Object>
+  
+   <Object type="0x7003" id="UnCommon Daily Quest Token">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xfe</Index>
+      </Texture>
+      <SlotType>90</SlotType>
+      <Tier>22</Tier>
+      <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <Soulbound/>
+      <DisplayId>{UnCommon Daily Quest Token}</DisplayId>
+   </Object>
+  
+    <Object type="0x7002" id="Rare Daily Quest Token">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xfd</Index>
+      </Texture>
+      <SlotType>90</SlotType>
+      <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
+      <Tier>33</Tier>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <Soulbound/>
+      <DisplayId>{Rare Daily Quest Token}</DisplayId>
    </Object>
 
    <Object type="0xc85" id="Common Feline Egg">

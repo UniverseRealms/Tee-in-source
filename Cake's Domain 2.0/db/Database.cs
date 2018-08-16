@@ -11,6 +11,7 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 
+
 #endregion
 
 namespace db
@@ -20,7 +21,7 @@ namespace db
         private static readonly List<string> emails = new List<string>();
         private static readonly string[] Names =
         {
-            "Raph", "Ehoi", "Ichi", "Oryx",
+            "Choose a Name",
         };
 
         private static string _host, _databaseName, _user, _password;
