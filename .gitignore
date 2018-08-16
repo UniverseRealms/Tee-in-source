@@ -8,3 +8,59 @@ Cake's Domain 2.0/bin/Debug/log/errors_wServer.txt
 Cake's Domain 2.0/bin/Debug/log/log_server.txt
 Cake's Domain 2.0/bin/Debug/log/log_wServer.txt
 *.cache
+
+Cake's Domain 2\.0/\.vs/Server/v15/\.suo
+
+Cake's Domain 2\.0/bin/Debug/log/
+
+Cake's Domain 2\.0/DungeonGen/obj/Debug/DungeonGen\.csproj\.FileListAbsolute\.txt
+
+Cake's Domain 2\.0/db/obj/Debug/db\.csproj\.FileListAbsolute\.txt
+
+*.pdb
+
+Cake's Domain 2\.0/Json2Wmap/obj/x86/Debug/Json2Wmap\.csproj\.FileListAbsolute\.txt
+
+Cake's Domain 2\.0/terrain/obj/Debug/terrain\.csproj\.FileListAbsolute\.txt
+
+Cake's Domain 2\.0/wServer/obj/Debug/wServer\.csproj\.FileListAbsolute\.txt
+
+Cake's Domain 2\.0/wServer/obj/Debug/wServer\.exe
+
+Cake's Domain 2\.0/terrain/obj/Debug/terrain\.exe
+
+Cake's Domain 2\.0/terrain/bin/Debug/db\.dll
+
+Cake's Domain 2\.0/terrain/bin/Debug/terrain\.exe
+
+Cake's Domain 2\.0/server/obj/x86/Debug/server\.exe
+
+Cake's Domain 2\.0/server/obj/x86/Debug/server\.csproj\.FileListAbsolute\.txt
+
+Cake's Domain 2\.0/Json2Wmap/obj/x86/Debug/Json2Wmap\.exe
+
+Cake's Domain 2\.0/Json2Wmap/bin/Debug/terrain\.exe
+
+Cake's Domain 2\.0/Json2Wmap/bin/Debug/Json2Wmap\.exe
+
+Cake's Domain 2\.0/Json2Wmap/bin/Debug/db\.dll
+
+Cake's Domain 2\.0/DungeonGen/obj/Debug/DungeonGen\.dll
+
+Cake's Domain 2\.0/DungeonGen/bin/Debug/DungeonGen\.dll
+
+Cake's Domain 2\.0/db/obj/Debug/db\.dll
+
+Cake's Domain 2\.0/db/bin/Debug/db\.dll
+
+Cake's Domain 2\.0/bin/Debug/wServer\.exe
+
+Cake's Domain 2\.0/bin/Debug/server\.exe
+
+Cake's Domain 2\.0/bin/Debug/DungeonGen\.dll
+
+Cake's Domain 2\.0/bin/Debug/db\.dll
+
+Cake's Domain 2\.0/bin/Debug/autoId\.cfg
+
+Cake's Domain 2\.0/bin/Debug/server\.cfg
