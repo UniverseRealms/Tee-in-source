@@ -5,7 +5,7 @@ import kabam.rotmg.application.api.ApplicationSetup;
 
 public class ProductionSetup implements ApplicationSetup {
 
-    private const SERVER:String = "127.0.0.1:8888";
+    private const SERVER:String = "25.8.144.4:8888";
     private const UNENCRYPTED:String = ("http://" + SERVER);
     private const ENCRYPTED:String = ("https://" + SERVER);
     private const BUILD_LABEL:String = "RotMG #{VERSION}.{MINOR}";

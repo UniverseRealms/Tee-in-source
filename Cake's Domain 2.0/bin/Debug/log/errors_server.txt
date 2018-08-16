@@ -16677,3 +16677,7 @@ Port: 2050
 Host: 127.0.0.1
 Port: 2050
 2018-08-11 17:45:06,428 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-15 22:39:03,500 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-15 22:39:17,129 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-15 22:47:58,512 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-15 22:48:13,968 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
