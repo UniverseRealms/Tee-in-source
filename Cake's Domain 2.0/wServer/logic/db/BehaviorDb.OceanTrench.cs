@@ -81,7 +81,6 @@ namespace wServer.logic
                                 )
             .Init("Thessal the Mermaid Goddess",
                 new State(
-                    new TransformOnDeath("Thessal the Mermaid Goddess Wounded", probability: 0.1),
                     new TransformOnDeath("Thessal Dropper"),
                     new State("Start",
                         new Prioritize(
