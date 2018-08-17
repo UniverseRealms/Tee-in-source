@@ -1,6 +1,144 @@
 
 <Objects>
   
+     <Object type="0x7014" id="Speed Awoken">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x02</Index>
+         </Texture>
+      <SlotType>10</SlotType>
+      <Description>{Spount barriers has never been broken like before}</Description>
+      <Sound>use_potion</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Potion/>
+      <BagType>6</BagType>
+      <Activate stat="22" amount="75" duration="50">StatBoostSelf</Activate>
+      <feedPower>150</feedPower>
+      <DisplayId>{Speed Awoken}</DisplayId>
+   </Object>
+  
+     <Object type="0x7013" id="Star aim shot">
+      <Class>Projectile</Class>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x05</Index>
+         </Texture>
+     <AngleCorrection>1</AngleCorrection>
+   </Object>
+  
+  <Object type="0x7012" id="Star Aim Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x06</Index>
+         </Texture>
+      <SlotType>3</SlotType>
+      <Description>{A bow that hold such power to destroy a star in one shot.}</Description>
+      <RateOfFire>0.09</RateOfFire>
+      <Sound>weapon/golden_bow</Sound>
+      <Projectile>
+         <ObjectId>Star aim shot</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>1412</MinDamage>
+         <MaxDamage>1743</MaxDamage>
+         <LifetimeMS>503</LifetimeMS>
+      </Projectile>
+    <scalevalue>1</scalevalue>
+      <BagType>6</BagType>
+      <FameBonus>6</FameBonus>
+      <NumProjectiles>1</NumProjectiles>
+      <OldSound>arrowShoot</OldSound>
+      <feedPower>1200</feedPower>
+      <Soulbound/>
+      <DisplayId>{Star Aim Bow}</DisplayId>
+   </Object>
+  
+    <Object type="0x7009" id="Sword of Holy Growth">
+      <Class>Equipment</Class>
+      <Item/>
+       <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x00</Index>
+         </Texture>
+      <SlotType>1</SlotType>
+      <Description>{Used by the angels to create and destroy earth bound enemies.}</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/mithril_sword</Sound>
+      <Projectile>
+         <ObjectId>Grass thing</ObjectId>
+         <Speed>120</Speed>
+         <MinDamage>95</MinDamage>
+         <MaxDamage>395</MaxDamage>
+         <LifetimeMS>210</LifetimeMS>
+      <ArmorPiercing/>
+      </Projectile>
+      <BagType>6</BagType>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>20</ArcGap>
+      <FameBonus>7</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>1000</feedPower>
+      <Soulbound/>
+      <DisplayId>{Sword of Holy Growth}</DisplayId>
+   </Object>
+  
+     <Object type="0x7011" id="Grass thing">
+      <Class>Projectile</Class>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x04</Index>
+         </Texture>
+     <AngleCorrection>1</AngleCorrection>
+   </Object>
+  
+   <Object type="0x7008" id="arkhem blade">
+      <Class>Projectile</Class>
+      <RandomTexture>
+        
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x1f</Index>
+         </Texture>
+        
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x1e</Index>
+         </Texture>
+        
+      </RandomTexture>
+   <Rotation>185</Rotation>
+   </Object>
+  
+      <Object type="0x7007" id="Blade of the Adamantite Knight">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x01</Index>
+      </Texture>
+      <scalevalue>1</scalevalue>
+      <SlotType>1</SlotType>
+      <Description>{A legendary blade that allows light to enter any opponent and create darkness with every swing.}</Description>
+      <RateOfFire>0.95</RateOfFire>
+      <Sound>weapon/fire_sword</Sound>
+      <Projectile>
+         <ObjectId>arkhem blade</ObjectId>
+         <Speed>79</Speed>
+         <MinDamage>195</MinDamage>
+         <MaxDamage>315</MaxDamage>
+         <LifetimeMS>390</LifetimeMS>
+        <ArmorPiercing/>
+      </Projectile>
+      <BagType>6</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>1500</feedPower>
+      <DisplayId>{Blade of the Adamantite Knight}</DisplayId>
+   </Object>
+  
     <Object type="0x7006" id="Infinite Flames Sword">
 <Class>Projectile</Class>
 <Texture>
@@ -25,13 +163,13 @@
       <Projectile>
          <ObjectId>Infinite Flames Sword</ObjectId>
          <Speed>100</Speed>
-         <MinDamage>115</MinDamage>
-         <MaxDamage>535</MaxDamage>
+         <MinDamage>175</MinDamage>
+         <MaxDamage>435</MaxDamage>
          <LifetimeMS>390</LifetimeMS>
       </Projectile>
       <BagType>6</BagType>
       <OldSound>bladeSwing</OldSound>
-      <feedPower>1600</feedPower>
+      <feedPower>1200</feedPower>
       <DisplayId>{Blade of Flame Justice}</DisplayId>
    </Object>
   
