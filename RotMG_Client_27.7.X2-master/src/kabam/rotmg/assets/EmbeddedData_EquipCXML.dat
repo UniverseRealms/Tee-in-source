@@ -2,8 +2,93 @@
 
 <Objects>
 
-        <Object type="0x7006" id="Infinite Flames Sword">
-	<Class>Projectile</Class>
+     
+    <Object type="0x7009" id="Sword of Holy Growth">
+      <Class>Equipment</Class>
+      <Item/>
+       <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x00</Index>
+         </Texture>
+      <SlotType>1</SlotType>
+      <Description>{Used by the angels to create and destroy earth bound enemies.}</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/mithril_sword</Sound>
+      <Projectile>
+         <ObjectId>Grass thing</ObjectId>
+         <Speed>120</Speed>
+         <MinDamage>95</MinDamage>
+         <MaxDamage>395</MaxDamage>
+         <LifetimeMS>300</LifetimeMS>
+      <ArmorPiercing/>
+      </Projectile>
+      <BagType>6</BagType>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>20</ArcGap>
+      <FameBonus>7</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>2000</feedPower>
+      <Soulbound/>
+      <DisplayId>{Sword of Holy Growth}</DisplayId>
+   </Object>
+  
+     <Object type="0x7011" id="Grass thing">
+      <Class>Projectile</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x04</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x05</Index>
+         </Texture>
+      </RandomTexture>
+   </Object>
+  
+   <Object type="0x7008" id="arkhem blade">
+      <Class>Projectile</Class>
+      <RandomTexture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x1f</Index>
+         </Texture>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x1e</Index>
+         </Texture>
+      <Rotation>185</Rotation>
+      </RandomTexture>
+   </Object>
+  
+      <Object type="0x7007" id="Blade of the Adamantite Knight">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObjBig</File>
+         <Index>0x01</Index>
+      </Texture>
+      <scalevalue>1</scalevalue>
+      <SlotType>1</SlotType>
+      <Description>{A legendary blade that allows light to enter any opponent and create darkness with every swing.}</Description>
+      <RateOfFire>0.95</RateOfFire>
+      <Sound>weapon/fire_sword</Sound>
+      <Projectile>
+         <ObjectId>arkhem blade</ObjectId>
+         <Speed>79</Speed>
+         <MinDamage>195</MinDamage>
+         <MaxDamage>315</MaxDamage>
+         <LifetimeMS>390</LifetimeMS>
+        <ArmorPiercing/>
+      </Projectile>
+      <BagType>6</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>1800</feedPower>
+      <DisplayId>{Blade of the Adamantite Knight}</DisplayId>
+   </Object>
+  
+    <Object type="0x7006" id="Infinite Flames Sword">
+<Class>Projectile</Class>
 <Texture>
          <File>lofiObjBig</File>
          <Index>0x20</Index>
@@ -20,14 +105,14 @@
       </Texture>
       <scalevalue>1</scalevalue>
       <SlotType>1</SlotType>
-      <Description>{A fiery blade that holds the ancient power of creating life and deleting death.}</Description>
+      <Description>{A firey blade that holds the ancient power of creating life and deleting death.}</Description>
       <RateOfFire>0.65</RateOfFire>
       <Sound>weapon/fire_sword</Sound>
       <Projectile>
          <ObjectId>Infinite Flames Sword</ObjectId>
          <Speed>100</Speed>
-         <MinDamage>115</MinDamage>
-         <MaxDamage>535</MaxDamage>
+         <MinDamage>175</MinDamage>
+         <MaxDamage>435</MaxDamage>
          <LifetimeMS>390</LifetimeMS>
       </Projectile>
       <BagType>6</BagType>
