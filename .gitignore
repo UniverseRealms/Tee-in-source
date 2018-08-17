@@ -64,3 +64,5 @@ Cake's Domain 2\.0/bin/Debug/db\.dll
 Cake's Domain 2\.0/bin/Debug/autoId\.cfg
 
 Cake's Domain 2\.0/bin/Debug/server\.cfg
+
+*.ide
