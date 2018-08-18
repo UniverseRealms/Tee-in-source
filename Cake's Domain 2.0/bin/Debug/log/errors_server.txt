@@ -16712,3 +16712,20 @@ Port: 2050
 2018-08-16 21:42:55,255 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
 2018-08-16 21:47:27,648 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
 2018-08-16 22:13:30,687 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-17 22:11:18,363 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-17 23:57:10,558 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-17 23:57:10,619 [Entry] WARN  db.data.XmlData - 'The Forgotten Crown' and 'Light Iron Boots' has the same ID of 0x0bab!
+2018-08-17 23:59:45,480 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-08-18 00:05:12,684 [10] ERROR Server - Newtonsoft.Json.JsonSerializationException: Error converting value 3089 to type 'server.account.purchasePackage+PackageContent'. Path '', line 1, position 5. ---> System.ArgumentException: Could not cast or convert from System.Int64 to server.account.purchasePackage+PackageContent.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader)
+   at server.account.purchasePackage.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\purchasePackage.cs:line 36
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156

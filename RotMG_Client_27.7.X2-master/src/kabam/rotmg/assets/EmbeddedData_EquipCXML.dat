@@ -2,7 +2,63 @@
 
 <Objects>
 
- <Object type="0x7014" id="Speed Awoken">
+
+    <Object type="0x7017" id="Light Iron Boots">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x1d</Index>
+         </Texture>
+    <SlotType>9</SlotType>
+    <Description>{2 Iron boots to help out with movement and your defense}</Description>
+    <ActivateOnEquip stat="21" amount="14">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="22" amount="7">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <feedPower>600</feedPower>
+    <Soulbound/>
+	<RT/>
+    <DisplayId>{Light Iron Boots}</DisplayId>
+  </Object>
+
+    <Object type="0x7016" id="electraical blade">
+      <Class>Projectile</Class>
+         <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x49</Index>
+         </Texture>
+     <AngleCorrection>1</AngleCorrection>
+   </Object>
+  
+     <Object type="0x7015" id="Electrical Surprise Blade">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+            <File>lofiObjBig</File>
+            <Index>0x4a</Index>
+         </Texture>
+       <scalevalue>1</scalevalue>
+      <SlotType>1</SlotType>
+      <Description>{A sword that strikes with massive power destroying thing from a far.}</Description>
+      <RateOfFire>0.99</RateOfFire>
+      <Sound>weapon/mithril_sword</Sound>
+      <Projectile>
+         <ObjectId>electraical blade</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>220</MinDamage>
+         <MaxDamage>255</MaxDamage>
+         <LifetimeMS>550</LifetimeMS>
+      </Projectile>
+      <BagType>6</BagType>
+      <FameBonus>7</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>1100</feedPower>
+      <Soulbound/>
+      <DisplayId>{Electrical Surprise Blade}</DisplayId>
+   </Object>
+  
+     <Object type="0x7014" id="Speed Awoken">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -68,14 +124,16 @@
       <SlotType>1</SlotType>
       <Description>{Used by the angels to create and destroy earth bound enemies.}</Description>
       <RateOfFire>1</RateOfFire>
+      <ActivateOnEquip stat="0" amount="10">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="10">IncrementStat</ActivateOnEquip>
       <Sound>weapon/mithril_sword</Sound>
       <Projectile>
          <ObjectId>Grass thing</ObjectId>
          <Speed>120</Speed>
-         <MinDamage>95</MinDamage>
+         <MinDamage>85</MinDamage>
          <MaxDamage>395</MaxDamage>
          <LifetimeMS>210</LifetimeMS>
-      <ArmorPiercing/>
+      
       </Projectile>
       <BagType>6</BagType>
       <NumProjectiles>2</NumProjectiles>
@@ -126,6 +184,7 @@
       <Description>{A legendary blade that allows light to enter any opponent and create darkness with every swing.}</Description>
       <RateOfFire>0.95</RateOfFire>
       <Sound>weapon/fire_sword</Sound>
+        <ActivateOnEquip stat="27" amount="4">IncrementStat</ActivateOnEquip>
       <Projectile>
          <ObjectId>arkhem blade</ObjectId>
          <Speed>79</Speed>
@@ -134,9 +193,12 @@
          <LifetimeMS>390</LifetimeMS>
         <ArmorPiercing/>
       </Projectile>
+        <NumProjectiles>1</NumProjectiles>
+      <FameBonus>7</FameBonus>
       <BagType>6</BagType>
       <OldSound>bladeSwing</OldSound>
       <feedPower>1500</feedPower>
+        <Soulbound/>
       <DisplayId>{Blade of the Adamantite Knight}</DisplayId>
    </Object>
   
@@ -158,6 +220,7 @@
       </Texture>
       <scalevalue>1</scalevalue>
       <SlotType>1</SlotType>
+      <ActivateOnEquip stat="21" amount="2">IncrementStat</ActivateOnEquip>
       <Description>{A firey blade that holds the ancient power of creating life and deleting death.}</Description>
       <RateOfFire>0.65</RateOfFire>
       <Sound>weapon/fire_sword</Sound>
@@ -166,11 +229,18 @@
          <Speed>100</Speed>
          <MinDamage>175</MinDamage>
          <MaxDamage>435</MaxDamage>
+        <Amplitude>0.2</Amplitude>
+         <Frequency>0.2</Frequency>
          <LifetimeMS>390</LifetimeMS>
       </Projectile>
+      <ArmorPiercing/>
+      
+      <NumProjectiles>1</NumProjectiles>
+      <FameBonus>7</FameBonus>
       <BagType>6</BagType>
       <OldSound>bladeSwing</OldSound>
       <feedPower>1200</feedPower>
+      <Soulbound/>
       <DisplayId>{Blade of Flame Justice}</DisplayId>
    </Object>
   
