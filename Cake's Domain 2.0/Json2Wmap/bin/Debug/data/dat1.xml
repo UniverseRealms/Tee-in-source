@@ -251,6 +251,7 @@
       </Texture>
       <SlotType>90</SlotType>
       <Tier>11</Tier>
+       <Weeklyquest/>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
       <Consumable/>
       <BagType>3</BagType>
@@ -266,6 +267,7 @@
          <File>lofiObj4</File>
          <Index>0xfe</Index>
       </Texture>
+     <Weeklyquest/>
       <SlotType>90</SlotType>
       <Tier>22</Tier>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
@@ -284,6 +286,7 @@
          <Index>0xfd</Index>
       </Texture>
       <SlotType>90</SlotType>
+      <Weeklyquest/>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
       <Tier>33</Tier>
       <Consumable/>

@@ -312,24 +312,8 @@ AND characters.charId=death.chrId;";
             List<int> items = new List<int>(DailyQuestConstants.QuestsPerDay);
 
             List<Item> candidates = data.Items.Where(_ =>
-                _.Value.SlotType == 1 || _.Value.SlotType == 2 ||
-                _.Value.SlotType == 3 || _.Value.SlotType == 6 ||
-                _.Value.SlotType == 7 || _.Value.SlotType == 8 ||
-                _.Value.SlotType == 14 || _.Value.SlotType == 17 ||
-                _.Value.SlotType == 24).Where(_ =>
-                _.Value.Tier == 6 || _.Value.Tier == 7 ||
-                _.Value.Tier == 8 || _.Value.Tier == 9 ||
-                _.Value.Tier == 10).Select(_ => _.Value).ToList();
-            candidates.AddRange(data.Items.Where(_ => 
-                _.Value.SlotType == 4 || _.Value.SlotType == 5 ||
-                _.Value.SlotType == 11 || _.Value.SlotType == 12 ||
-                _.Value.SlotType == 13 || _.Value.SlotType == 15 ||
-                _.Value.SlotType == 16 ||  _.Value.SlotType == 18 ||
-                _.Value.SlotType == 19 || _.Value.SlotType == 20 ||
-                _.Value.SlotType == 21 || _.Value.SlotType == 22 ||
-                _.Value.SlotType == 23 || _.Value.SlotType == 25)
-                .Where(_ => _.Value.Tier == 3 || _.Value.Tier == 4).Select(_ => _.Value));
-
+                _.Value.Weeklyquest)
+                .Select(_ => _.Value).ToList();
             do
             {
                 int r = -1;

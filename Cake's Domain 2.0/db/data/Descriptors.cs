@@ -414,7 +414,8 @@ public class ActivateEffect
         }
     }
 
-
+               
+   
     public ActivateEffects Effect { get; private set; }
     public int Stats { get; private set; }
     public int Amount { get; private set; }
@@ -595,6 +596,7 @@ public class Item : IFeedable
     public bool LootDropBooster { get; private set; }
     public bool LootTierBooster { get; private set; }
     public int SetType { get; private set; }
+    public bool Weeklyquest { get; internal set; }
 }
 
 public class SpawnCount

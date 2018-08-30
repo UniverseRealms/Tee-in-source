@@ -16729,3 +16729,4 @@ Port: 2050
    at server.account.purchasePackage.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\purchasePackage.cs:line 36
    at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
    at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-08-29 19:20:39,177 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
