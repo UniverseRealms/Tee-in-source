@@ -31,7 +31,6 @@ namespace wServer.realm.setpieces
             new TierLoot(4, ItemType.Ability, 0.1),
             new TierLoot(2, ItemType.Ring, 0.25),
             new TierLoot(3, ItemType.Ring, 0.15),
-            new ItemLoot("Compound Military Bow", 0.007),
             new TierLoot(1, ItemType.Potion, 0.5)
             );
 

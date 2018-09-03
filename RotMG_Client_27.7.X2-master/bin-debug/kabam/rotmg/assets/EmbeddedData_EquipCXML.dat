@@ -244,8 +244,7 @@
       <DisplayId>{Blade of Flame Justice}</DisplayId>
    </Object>
   
-
-    <Object type="0x7004" id="Common Daily Quest Token">
+  <Object type="0x7004" id="Common Daily Quest Token">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -253,7 +252,7 @@
          <Index>0xff</Index>
       </Texture>
       <SlotType>90</SlotType>
-      <Tier>11</Tier>
+       <Weeklyquest/>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
       <Consumable/>
       <BagType>3</BagType>
@@ -269,8 +268,8 @@
          <File>lofiObj4</File>
          <Index>0xfe</Index>
       </Texture>
+     <Weeklyquest/>
       <SlotType>90</SlotType>
-      <Tier>22</Tier>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
       <Consumable/>
       <BagType>3</BagType>
@@ -287,15 +286,32 @@
          <Index>0xfd</Index>
       </Texture>
       <SlotType>90</SlotType>
+      <Weeklyquest/>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
-      <Tier>33</Tier>
       <Consumable/>
       <BagType>3</BagType>
       <feedPower>300</feedPower>
       <Soulbound/>
       <DisplayId>{Rare Daily Quest Token}</DisplayId>
    </Object>
-
+  
+   <Object type="0x7002" id="Epic Daily Quest Token">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xfc</Index>
+      </Texture>
+      <SlotType>90</SlotType>
+      <Weeklyquest/>
+      <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <Soulbound/>
+      <DisplayId>{Epic Daily Quest Token}</DisplayId>
+   </Object>
+   
    <Object type="0xc85" id="Common Feline Egg">
       <Class>Equipment</Class>
       <Item/>

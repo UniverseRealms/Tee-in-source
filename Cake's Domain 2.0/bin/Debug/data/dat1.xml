@@ -250,7 +250,6 @@
          <Index>0xff</Index>
       </Texture>
       <SlotType>90</SlotType>
-      <Tier>11</Tier>
        <Weeklyquest/>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
       <Consumable/>
@@ -269,7 +268,6 @@
       </Texture>
      <Weeklyquest/>
       <SlotType>90</SlotType>
-      <Tier>22</Tier>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
       <Consumable/>
       <BagType>3</BagType>
@@ -288,12 +286,28 @@
       <SlotType>90</SlotType>
       <Weeklyquest/>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
-      <Tier>33</Tier>
       <Consumable/>
       <BagType>3</BagType>
       <feedPower>300</feedPower>
       <Soulbound/>
       <DisplayId>{Rare Daily Quest Token}</DisplayId>
+   </Object>
+  
+   <Object type="0x7022" id="Epic Daily Quest Token">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xfc</Index>
+      </Texture>
+      <SlotType>90</SlotType>
+      <Weeklyquest/>
+      <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <Soulbound/>
+      <DisplayId>{Epic Daily Quest Token}</DisplayId>
    </Object>
   
   <Object type="0x7001" id="Child">

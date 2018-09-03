@@ -16730,3 +16730,345 @@ Port: 2050
    at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
    at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
 2018-08-29 19:20:39,177 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 20:19:08,888 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 20:23:17,222 [7] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at server.account.verify.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\verify.cs:line 22
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 20:23:17,295 [7] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at server.char.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\char\list.cs:line 64
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 20:23:30,501 [6] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at server.char.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\char\list.cs:line 64
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 20:23:59,193 [9] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at server.char.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\char\list.cs:line 64
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 20:25:38,455 [10] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at db.Database.Register(String uuid, String password, Boolean isGuest, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 305
+   at server.account.register.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\register.cs:line 71
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 20:25:46,835 [10] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at server.account.setName.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\setName.cs:line 22
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 20:26:17,863 [10] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at server.account.verify.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\verify.cs:line 22
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 20:26:17,947 [10] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at server.char.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\char\list.cs:line 64
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 20:26:36,324 [10] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at server.char.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\char\list.cs:line 64
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 20:37:22,668 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 20:37:52,327 [3] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at db.Database.Register(String uuid, String password, Boolean isGuest, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 305
+   at server.account.register.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\register.cs:line 71
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 20:38:07,571 [3] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at server.account.setName.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\setName.cs:line 22
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 20:57:16,388 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 20:57:30,729 [3] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at server.char.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\char\list.cs:line 64
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 20:59:40,637 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 20:59:45,247 [3] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at server.char.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\char\list.cs:line 64
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 21:01:06,829 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 21:01:31,272 [3] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at db.Database.Register(String uuid, String password, Boolean isGuest, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 305
+   at server.account.register.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\register.cs:line 71
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 21:01:37,629 [3] ERROR Server - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at db.Database.GenerateDailyQuest(String accId, XmlData data, DateTime pst5pm) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 320
+   at db.Database.GetDailyQuest(String accId, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 236
+   at db.Database.GetAccount(String accId, XmlData data, String uuid, String password) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 420
+   at db.Database.Verify(String uuid, String password, XmlData data) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Database.cs:line 201
+   at server.account.setName.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\setName.cs:line 22
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-01 21:26:59,085 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 21:28:46,891 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 21:32:58,000 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 21:34:06,885 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 21:39:31,752 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 21:40:28,770 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 23:41:18,651 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 23:41:18,709 [Entry] WARN  db.data.XmlData - 'Epic Daily Quest Token' and 'Rare Daily Quest Token' has the same ID of 0x7002!
+2018-09-01 23:51:16,476 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-01 23:51:16,537 [Entry] WARN  db.data.XmlData - 'Epic Daily Quest Token' and 'Rare Daily Quest Token' has the same ID of 0x7002!
+2018-09-02 00:10:21,388 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 00:21:56,631 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 00:23:40,868 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 00:29:00,702 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 00:33:38,885 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 00:37:06,574 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 00:37:09,224 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 00:48:01,187 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 00:50:10,265 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 12:34:11,232 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 14:32:02,650 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 15:32:05,146 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 15:46:06,605 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 15:52:25,369 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 15:53:03,925 [3] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 15:54:45,336 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 15:55:36,380 [3] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 15:58:31,410 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 16:05:34,455 [3] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:05:34,455 [12] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:05:34,457 [8] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:05:34,455 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:05:34,457 [9] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:05:34,702 [10] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:05:34,455 [13] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:05:34,728 [11] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:06:11,037 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 16:06:13,777 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:06:50,542 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:06:51,157 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): The specified network name is no longer available
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   at System.Xml.XmlUtf8RawTextWriter.Flush()
+   at System.Xml.XmlWellFormedWriter.Flush()
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   at server.char.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\char\list.cs:line 106
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-02 16:14:10,695 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 16:20:02,476 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 16:28:07,022 [10] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:28:07,022 [3] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:28:07,022 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:28:08,186 [6] ERROR Server - System.InvalidOperationException: There was an error generating the XML document. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   at System.Xml.XmlUtf8RawTextWriter.WriteElementTextBlock(Char* pSrc, Char* pSrcEnd)
+   at System.Xml.XmlUtf8RawTextWriter.WriteString(String text)
+   at System.Xml.XmlUtf8RawTextWriterIndent.WriteString(String text)
+   at System.Xml.XmlWellFormedWriter.WriteString(String text)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write14_ClassAvailabilityItem(String n, String ns, ClassAvailabilityItem o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   at server.char.list.HandleRequest()
+   at server.RequestHandler.HandleRequest(HttpListenerContext context)
+   at server.Program.ProcessRequest(HttpListenerContext context)
+2018-09-02 16:28:08,212 [3] ERROR Server - System.InvalidOperationException: There was an error generating the XML document. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   at System.Xml.XmlUtf8RawTextWriter.WriteElementTextBlock(Char* pSrc, Char* pSrcEnd)
+   at System.Xml.XmlUtf8RawTextWriter.WriteString(String text)
+   at System.Xml.XmlUtf8RawTextWriterIndent.WriteString(String text)
+   at System.Xml.XmlWellFormedWriter.WriteString(String text)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write14_ClassAvailabilityItem(String n, String ns, ClassAvailabilityItem o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   at server.char.list.HandleRequest()
+   at server.RequestHandler.HandleRequest(HttpListenerContext context)
+   at server.Program.ProcessRequest(HttpListenerContext context)
+2018-09-02 16:28:08,310 [10] ERROR Server - System.InvalidOperationException: There was an error generating the XML document. ---> System.Net.HttpListenerException: An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   at System.Xml.XmlUtf8RawTextWriter.WriteElementTextBlock(Char* pSrc, Char* pSrcEnd)
+   at System.Xml.XmlUtf8RawTextWriter.WriteString(String text)
+   at System.Xml.XmlUtf8RawTextWriterIndent.WriteString(String text)
+   at System.Xml.XmlWellFormedWriter.WriteString(String text)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write14_ClassAvailabilityItem(String n, String ns, ClassAvailabilityItem o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   at server.char.list.HandleRequest()
+   at server.RequestHandler.HandleRequest(HttpListenerContext context)
+   at server.Program.ProcessRequest(HttpListenerContext context)
+2018-09-02 16:31:13,848 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 16:46:05,403 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 16:46:30,468 [3] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:47:39,529 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 16:50:41,428 [7] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:50:46,866 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 16:53:59,049 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 16:55:30,535 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 16:56:47,725 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 16:58:13,466 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:58:13,467 [8] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:58:13,467 [3] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 16:58:22,472 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 17:02:31,185 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 17:03:00,355 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-02 17:04:12,291 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 17:09:27,932 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 17:11:24,910 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 17:12:21,018 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 17:17:45,692 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-02 17:26:39,516 [16] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050

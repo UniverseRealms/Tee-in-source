@@ -42,6 +42,50 @@ namespace wServer.realm.commands
     // }
     // }
 
+    internal class VaultCommand : Command
+    {
+        public VaultCommand()
+            : base("vault")
+        {
+        }
+
+        protected override bool Process(Player player, RealmTime time, string[] args)
+        {
+            player.Client.Reconnect(new ReconnectPacket
+            {
+                Host = "",
+                Port = Program.Settings.GetValue<int>("port"),
+                GameId = player.Manager.PlayerVault(player.Client).Id,
+                Name = player.Manager.PlayerVault(player.Client).Name,
+                Key = player.Manager.PlayerVault(player.Client).PortalKey,
+            });
+            return true;
+        }
+    }
+
+    internal class RealmCommand : Command
+    {
+        public RealmCommand()
+            : base("realm")
+        {
+        }
+
+        protected override bool Process(Player player, RealmTime time, string[] args)
+        {
+            World world = player.Client.Manager.Monitor.GetRandomRealm();
+
+            player.Client.Reconnect(new ReconnectPacket
+            {
+                Host = "",
+                Port = Program.Settings.GetValue<int>("port"),
+                GameId = world.Id,
+                Name = world.Name,
+                Key = world.PortalKey,
+            });
+            return true;
+        }
+    }
+
     internal class SummonAll : Command
     {
         public SummonAll()

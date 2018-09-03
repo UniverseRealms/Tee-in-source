@@ -56,7 +56,7 @@
       </extensions>
       <!-- compiler.external-library-path: list of SWC files or directories to compile against but to omit from linking-->
       <external-library-path>
-         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/player/18.0/playerglobal.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/air/airglobal.swc</path-element>
       </external-library-path>
       <fonts>
          <!-- compiler.fonts.advanced-anti-aliasing: enables advanced anti-aliasing for embedded fonts, which provides greater clarity for small fonts.-->
@@ -136,10 +136,28 @@
       <!-- compiler.library-path: list of SWC files or directories that contain SWC files-->
       <library-path>
          <path-element>C:\Users\raphe\OneDrive\Desktop\flex_sdk_4.9.1/frameworks/locale/{locale}</path-element>
-         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/core.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/rpc.swc</path-element>
          <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/osmf.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/spark.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/apache.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/charts.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/framework.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/spark_dmv.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/sparkskins.swc</path-element>
          <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/textLayout.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/experimental.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/advancedgrids.swc</path-element>
          <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/authoringsupport.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/flash-integration.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/mx/mx.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/air/aircore.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/air/gamepad.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/air/airspark.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/air/airframework.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/air/crosspromotion.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/air/servicemonitor.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/air/applicationupdater.swc</path-element>
+         <path-element>C:/Users/raphe/OneDrive/Desktop/flex_sdk_4.9.1/frameworks/libs/air/applicationupdater_ui.swc</path-element>
          <path-element>C:/Users/raphe/OneDrive/Desktop/Tidan's Sourcefiles/Source/RotMG_Client_27.7.X2-master/libs/as3-signals.swc</path-element>
          <path-element>C:/Users/raphe/OneDrive/Desktop/Tidan's Sourcefiles/Source/RotMG_Client_27.7.X2-master/libs/as3core.swc</path-element>
          <path-element>C:/Users/raphe/OneDrive/Desktop/Tidan's Sourcefiles/Source/RotMG_Client_27.7.X2-master/libs/as3crypto.swc</path-element>
@@ -175,12 +193,22 @@
       </mxml>
       <namespaces>
          <!-- compiler.namespaces.namespace: Specify a URI to associate with a manifest of components for use as MXML elements-->
-         <!-- compiler.namespaces.namespace usage:
          <namespace>
-            <uri>string</uri>
-            <manifest>string</manifest>
+            <uri>http://ns.adobe.com/mxml/2009</uri>
+            <manifest>C:\Users\raphe\OneDrive\Desktop\flex_sdk_4.9.1/frameworks/mxml-2009-manifest.xml</manifest>
          </namespace>
-         -->
+         <namespace>
+            <uri>library://ns.adobe.com/flex/spark</uri>
+            <manifest>C:\Users\raphe\OneDrive\Desktop\flex_sdk_4.9.1/frameworks/spark-manifest.xml</manifest>
+         </namespace>
+         <namespace>
+            <uri>library://ns.adobe.com/flex/mx</uri>
+            <manifest>C:\Users\raphe\OneDrive\Desktop\flex_sdk_4.9.1/frameworks/mx-manifest.xml</manifest>
+         </namespace>
+         <namespace>
+            <uri>http://www.adobe.com/2006/mxml</uri>
+            <manifest>C:\Users\raphe\OneDrive\Desktop\flex_sdk_4.9.1/frameworks/mxml-manifest.xml</manifest>
+         </namespace>
       </namespaces>
       <!-- compiler.omit-trace-statements: toggle whether trace statements are omitted-->
       <omit-trace-statements>true</omit-trace-statements>
@@ -223,7 +251,9 @@
       <!-- compiler.strict: runs the AS3 compiler in strict error checking mode.-->
       <strict>true</strict>
       <!-- compiler.theme: list of CSS or SWC files to apply as a theme-->
-      <theme></theme>
+      <theme>
+         <filename>${flexlib}/themes/Spark/spark.css</filename>
+      </theme>
       <!-- compiler.use-resource-bundle-metadata: determines whether resources bundles are included in the application.-->
       <use-resource-bundle-metadata>true</use-resource-bundle-metadata>
       <!-- compiler.verbose-stacktraces: save callstack information to the SWF for debugging-->

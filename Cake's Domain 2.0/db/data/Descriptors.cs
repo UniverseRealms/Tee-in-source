@@ -496,6 +496,7 @@ public class Item : IFeedable
                 }
             else
                 Tier = -1;
+            Weeklyquest = elem.Element("Weeklyquest") != null;
             Description = elem.Element("Description").Value;
             RateOfFire = (n = elem.Element("RateOfFire")) != null ? float.Parse(n.Value, NumberStyles.Any, ci) : 1;
             Usable = elem.Element("Usable") != null;

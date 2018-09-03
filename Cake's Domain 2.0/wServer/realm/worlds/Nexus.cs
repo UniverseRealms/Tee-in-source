@@ -32,10 +32,10 @@ namespace wServer.realm.worlds
 
         public override void Tick(RealmTime time)
         {
+            base.Tick(time); //normal world tick
+
             CheckDupers();
             UpdatePortals();
-
-            base.Tick(time);
         }
 
         private void CheckDupers()
@@ -57,6 +57,14 @@ namespace wServer.realm.worlds
                     }
                 }
             }
+        }
+
+        private void RealmPortal()
+        {
+            
+
+
+
         }
 
         private void UpdatePortals()

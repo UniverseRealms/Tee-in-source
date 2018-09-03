@@ -466,7 +466,7 @@ namespace wServer.realm
 
         protected void LoadMap(string embeddedResource, MapType type)
         {
-            if(embeddedResource == null) return;
+            if (embeddedResource == null) return;
             var stream = typeof(RealmManager).Assembly.GetManifestResourceStream(embeddedResource);
             if (stream == null) throw new ArgumentException("Resource not found", nameof(embeddedResource));
 

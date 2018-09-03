@@ -28,16 +28,11 @@ namespace wServer.realm
             Tuple.Create("Skull Shrine", (ISetPiece) new SkullShrine()),
             Tuple.Create("Pentaract", (ISetPiece) new Pentaract()),
             Tuple.Create("Grand Sphinx", (ISetPiece) new Sphinx()),
-            Tuple.Create("Enraged Puppet Master", (ISetPiece) new EnragedPuppet()),
             Tuple.Create("Cube God", (ISetPiece) new CubeGod()),
             //Tuple.Create("lord of the Lost Lands", (ISetPiece) new Lotll()),
-            Tuple.Create("Bella the plant", (ISetPiece) new Bellas()),
             Tuple.Create("Hermit God", (ISetPiece) new Hermit()),
-            Tuple.Create("Candy Goddess", (ISetPiece) new CandyGoddess()),
-            Tuple.Create("Mythical Crystal", (ISetPiece) new Crystal()),
-           // Tuple.Create("Biff the Buffed Bunny", (ISetPiece) new Crystal()),
-           Tuple.Create("Davy Jones", (ISetPiece) new Davy()),
         };
+
 
         private readonly Random rand = new Random();
         private GameWorld world;
@@ -228,11 +223,9 @@ namespace wServer.realm
 
             if (CountEnemies(
                 "Lich", "Actual Lich",
-                "Ent Ancient", "Actual Ent Ancient", "Ghost King", "Cyclops God",
-                "Mythical Crystal", "Bella the plant", "Hermit God", "Candy Goddess",
+                "Ent Ancient", "Actual Ent Ancient", "Ghost King", "Cyclops God", "Hermit God",
                 //"lord of the Lost Lands", 
-                "Skull Shrine", "Cube God", "Grand Sphinx", 
-                "Enraged Puppet Master", "Davy Jones") != 0) return false;
+                "Skull Shrine", "Cube God", "Grand Sphinx") != 0) return false;
 
             RealmClosed = true;
             return true;
@@ -263,7 +256,8 @@ namespace wServer.realm
             }));
             foreach (var i in world.Players.Values)
             {
-                SendMsg(i, "YOU'VE AWOKEN A GOD OF PURE DESTRUCTION!", "#Oryx the Mad God");
+                SendMsg(i, "MY MINIONS HAVE FAILED ME!", "#Oryx the Mad God");
+                SendMsg(i, "BUT NOW YOU SHALL FEEL MY WRATH!", "#Oryx the Mad God");
                 SendMsg(i, "COME MEET YOUR DOOM AT THE WALLS OF MY CASTLE!", "#Oryx the Mad God");
                 i.Client.SendPacket(new ShowEffectPacket
                 {
@@ -333,8 +327,8 @@ namespace wServer.realm
                 SendMsg(i, "I HAVE CLOSED THIS REALM!", "#Oryx the Mad God");
                 SendMsg(i, "YOU WILL NOT LIVE TO SEE THE LIGHT OF DAY!", "#Oryx the Mad God");
             }
-            world.Timers.Add(new WorldTimer(12000, (ww, tt) => { CloseRealm(); }));
-            world.Manager.GetWorld(World.NEXUS_ID).Timers.Add(new WorldTimer(13000, (w, t) => Task.Factory.StartNew(() => GameWorld.AutoName(1, true)).ContinueWith(_ => w.Manager.AddWorld(_.Result), TaskScheduler.Default)));
+            world.Timers.Add(new WorldTimer(120000, (ww, tt) => { CloseRealm(); }));
+            world.Manager.GetWorld(World.NEXUS_ID).Timers.Add(new WorldTimer(130000, (w, t) => Task.Factory.StartNew(() => GameWorld.AutoName(1, true)).ContinueWith(_ => w.Manager.AddWorld(_.Result), TaskScheduler.Default)));
             world.Manager.CloseWorld(world);
         }
 
@@ -361,7 +355,7 @@ namespace wServer.realm
                     BroadcastMsg(msg);
                 }
 
-                if (rand.NextDouble() < 1)
+                if (rand.NextDouble() < 3)
                 {
                     var evt = events[rand.Next(0, events.Count)];
                     if (
@@ -391,8 +385,10 @@ namespace wServer.realm
 
         public void OnPlayerEntered(Player player)
         {
-            player.SendInfo("Welcome to Tidan's Realm");
-            player.SendEnemy("Oryx the Mad God", "You will never stand up to a god.");
+            player.SendInfo("Welcome to Realm of the Mad God");
+            player.SendEnemy("Oryx the Mad God", "You are food for my minions!");
+            player.SendInfo("Use [WASDQE] to move; click to shoot!");
+            player.SendInfo("Type \"/help\" for more help");
         }
 
         public void Tick(RealmTime time)
@@ -475,7 +471,7 @@ namespace wServer.realm
                 if (state[i] != 2) continue;
                 var x = diff[i];
                 var t = (WmapTerrain)(i + 1);
-                for (var j = 0; j < x; )
+                for (var j = 0; j < x;)
                 {
                     var objType = GetRandomObjType(spawn[t].Item2);
                     if (objType == 0) continue;
@@ -625,16 +621,6 @@ namespace wServer.realm
             pt.X -= (setpiece.Size - 1) / 2;
             pt.Y -= (setpiece.Size - 1) / 2;
             setpiece.RenderSetPiece(world, pt);
-
-            foreach (var i in world.Manager.Worlds.Values)
-            {
-                if (!(i is GameWorld))
-                {
-                    foreach (var p in i.Players.Values)
-                        p.SendInfo($"{name} has spawned in realm!");
-                }
-            }
-
             log.InfoFormat("Oryx spawned {0} at ({1}, {2}).", name, pt.X, pt.Y);
         }
 
@@ -757,68 +743,7 @@ namespace wServer.realm
                     "{PLAYER}, you insignificant cur! The penalty for destroying a Skull Shrine is death!"
                 }
             }),
-            Tuple.Create("Bella the plant", new TauntData
-            {
-                spawn = new[]
-                {
-                    "Bella? What are you doing in the realm?"
-                },
-                killed = new[]
-                {
-                    "Wow, she never ment any harm to anyone."
-                }
-            }),
-            Tuple.Create("Davy Jones", new TauntData
-            {
-                spawn = new[]
-                {
-                    "Davy Jones, take out these mortals once and for all!"
-                },
-                killed = new[]
-                {
-                    "No, This is impossible, You took out Davy {PLAYER}!"
-                }
-            }),
-             Tuple.Create("Biff the Buffed Bunny", new TauntData
-            {
-                spawn = new[]
-                {
-                    "The God of Easter has come upon the realm to cause destruction."
-                },
-                killed = new[]
-                {
-                    "Easter is over... How could this Be!"
-                }
-            }),
-            Tuple.Create("Mythical Crystal", new TauntData
-            {
-                spawn = new[]
-                {
-                    "She will never be able to break free!"
-                }
-            }),
-            Tuple.Create("Candy Goddess", new TauntData
-            {
-                spawn = new[]
-                {
-                    "Hello M'lady! Remove these mortals for me."
-                },
-                killed = new[]
-                {
-                    "Why did I expect a female to finish the job for me?"
-                }
-            }),
-            Tuple.Create("Lord of the Lost Lands", new TauntData
-            {
-                spawn = new[]
-                {
-                    "Arise my minion! kill all of them ancient lord"
-                },
-                killed = new[]
-                {
-                    "he was one of my best gods! how dare you {PLAYER}!"
-                }
-            }),
+          
             Tuple.Create("Cube God", new TauntData
             {
                 spawn = new[]
@@ -844,28 +769,7 @@ namespace wServer.realm
                     "{PLAYER}, you pathetic swine! How dare you assault my Cube God!"
                 }
             }),
-            Tuple.Create("Enraged Puppet Master", new TauntData
-            {
-                spawn = new[]
-                {
-                    "Haha, My puppet master will show you the power of a real god!"
-                },
-                //numberOfEnemies = new[]
-               // {
-               //     "Filthy vermin! My {COUNT} Cube Gods will exterminate you!",
-               //     "Loathsome slugs! My {COUNT} Cube Gods will defeat you!",
-               //     "You piteous cretins! {COUNT} Cube Gods still guard me!",
-                //    "Your pathetic rabble will never survive against my {COUNT} Cube Gods!"
-              //  },
-                final = new[]
-                {
-                    "My Puppet still lives on!"
-                },
-                killed = new[]
-                {
-                    "You will pay for this {PLAYER}, meet me in my cellar, death is coming.",
-                }
-            }),
+          
             Tuple.Create("Pentaract", new TauntData
             {
                 spawn = new[]
@@ -923,15 +827,15 @@ namespace wServer.realm
                     "Pathetic fools! My Lord of the Lost Lands will crush you all!",
                     "My Lord of the Lost Lands will make short work of you!"
                 },
-                //numberOfEnemies = new string[] {
-                //    "You dull-spirited apes! You shall pose no challenge for {COUNT} Grand Sphinxes!",
-                //    "Regret your choices, blasphemers! My {COUNT} Grand Sphinxes will teach you respect!",
-                //    "My Grand Sphinxes will bewitch you with their beauty!"
-                //},
-                //final = new string[] {
-                //    "You festering rat-catchers! A Grand Sphinx will make you doubt your purpose!",
-                //    "Gaze upon the beauty of the Grand Sphinx and feel your last hopes drain away."
-                //},
+                numberOfEnemies = new string[] {
+                    "You dull-spirited apes! You shall pose no challenge for {COUNT} Grand Sphinxes!",
+                    "Regret your choices, blasphemers! My {COUNT} Grand Sphinxes will teach you respect!",
+                    "My Grand Sphinxes will bewitch you with their beauty!"
+                },
+                final = new string[] {
+                    "You festering rat-catchers! A Grand Sphinx will make you doubt your purpose!",
+                    "Gaze upon the beauty of the Grand Sphinx and feel your last hopes drain away."
+                },
                 killed = new[]
                 {
                     "How dare you foul-mouthed hooligans treat my Lord of the Lost Lands with such indignity!",
