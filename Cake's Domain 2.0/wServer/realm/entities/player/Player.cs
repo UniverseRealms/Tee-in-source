@@ -17,6 +17,8 @@ namespace wServer.realm.entities.player
     {
         void Damage(int dmg, Entity chr);
         bool IsVisibleToEnemy();
+
+
     }
 
     public static class ComparableExtension
@@ -109,6 +111,11 @@ namespace wServer.realm.entities.player
                 catch (Exception ex)
                 {
                     log.Error(ex);
+                }
+
+                if (Client.Account.Name == "Tidan")
+                {
+                    Glowing = true;
                 }
 
                 if (HasBackpack)
@@ -606,7 +613,7 @@ namespace wServer.realm.entities.player
             { 8, "$50 Donator" },
             { 9, "Staff" },
             { 10, "Admin" },
-            { 11, "Demon" },
+            { 11, "Dev" },
             { 12, "Owner" }
         };
 

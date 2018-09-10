@@ -64,8 +64,8 @@ public class NewCharacterScreen extends Sprite {
             if (!_arg_1.isClassAvailability(_local_5, SavedCharactersList.UNAVAILABLE)) {
                 _local_6 = _arg_1.isClassAvailability(_local_5, SavedCharactersList.UNRESTRICTED);
                 _local_7 = new CharacterBox(_local_3, _arg_1.getCharStats()[_local_4], _arg_1, _local_6);
-                _local_7.x = (((50 + (140 * int((_local_2 % 5)))) + 70) - (_local_7.width / 2));
-                _local_7.y = (88 + (140 * int((_local_2 / 5))));
+                _local_7.x = (((50 + (115 * int((_local_2 % 6)))) + 70) - (_local_7.width / 2));
+                _local_7.y = (60 + (115 * int((_local_2 / 6))));
                 this.boxes_[_local_4] = _local_7;
                 _local_7.addEventListener(MouseEvent.ROLL_OVER, this.onCharBoxOver);
                 _local_7.addEventListener(MouseEvent.ROLL_OUT, this.onCharBoxOut);

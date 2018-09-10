@@ -62,6 +62,7 @@ public class Options extends Sprite {
         super();
         this.gs_ = _arg_1;
         graphics.clear();
+
         graphics.beginFill(0x2B2B2B, 0.8);
         graphics.drawRect(0, 0, 800, 600);
         graphics.endFill();
@@ -356,6 +357,8 @@ public class Options extends Sprite {
         }
     }
 
+
+
     public function isAirApplication():Boolean {
         return ((Capabilities.playerType == "Desktop"));
     }
@@ -443,8 +446,11 @@ public class Options extends Sprite {
     }
 
     private function addGraphicsOptions():void {
+
         var _local_1:String;
         var _local_2:Number;
+        this.addOptionAndPosition(new ChoiceOption("fullscreenMod", makeOnOffLabels(),[true, false], "Enable Fullscreen Mod", "/mscale <value>", null));
+        this.addOptionAndPosition((new KeyMapper("PictureMode", "PictureMode", "PictureMode")));
         this.addOptionAndPosition(new ChoiceOption("defaultCameraAngle", makeDegreeOptions(), [((7 * Math.PI) / 4), 0], TextKey.OPTIONS_DEFAULT_CAMERA_ANGLE, TextKey.OPTIONS_DEFAULT_CAMERA_ANGLE_DESC, onDefaultCameraAngleChange));
         this.addOptionAndPosition(new ChoiceOption("centerOnPlayer", makeOnOffLabels(), [true, false], TextKey.OPTIONS_CENTER_ON_PLAYER, TextKey.OPTIONS_CENTER_ON_PLAYER_DESC, null));
         this.addOptionAndPosition(new ChoiceOption("showQuestPortraits", makeOnOffLabels(), [true, false], TextKey.OPTIONS_SHOW_QUEST_PORTRAITS, TextKey.OPTIONS_SHOW_QUEST_PORTRAITS_DESC, this.onShowQuestPortraitsChange));

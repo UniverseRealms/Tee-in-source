@@ -178,7 +178,7 @@ namespace server.@char
 
         private List<ClassAvailabilityItem> GetClassAvailability(Account acc)
         {
-            var classes = new string[16]
+            var classes = new string[17]
             {
                 "Rogue",
                 "Assassin",
@@ -187,6 +187,7 @@ namespace server.@char
                 "Trickster",
                 "Sorcerer",
                 "Ninja",
+                "Samurai",
                 "Archer",
                 "Wizard",
                 "Blade Master",
@@ -209,6 +210,7 @@ namespace server.@char
                     new ClassAvailabilityItem {Class = "Trickster", Restricted = "restricted"},
                     new ClassAvailabilityItem {Class = "Sorcerer", Restricted = "restricted"},
                     new ClassAvailabilityItem {Class = "Ninja", Restricted = "restricted"},
+                    new ClassAvailabilityItem {Class = "Samurai", Restricted = "restricted"},
                     new ClassAvailabilityItem {Class = "Archer", Restricted = "restricted"},
                     new ClassAvailabilityItem {Class = "Blade Master", Restricted = "restricted"},
                     new ClassAvailabilityItem {Class = "Wizard", Restricted = "unrestricted"},

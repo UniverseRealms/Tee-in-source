@@ -29,7 +29,7 @@ namespace wServer.realm.commands
     //       Entity en = Entity.Resolve(player.Manager, "Oryx the mad god 2");
     //       en.Move(player.X, player.Y);
     //       player.Owner.EnterWorld(en);
-    //       player.UpdateCount++;
+    //       player.UpdateCount++;l
     //player.Client.SendPacket(new DeathPacket
     //{
     //    AccountId = player.AccountId,
@@ -2115,7 +2115,7 @@ internal class TossEffCommand : Command
     internal class LevelCommand : Command
     {
         public LevelCommand()
-            : base("level", 11)
+            : base("level", 0)
         {
         }
 

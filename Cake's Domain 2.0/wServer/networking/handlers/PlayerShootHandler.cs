@@ -53,8 +53,6 @@ namespace wServer.networking.handlers
 
                 client.Player.Owner.EnterWorld(prj);
 
-                client.Player.ManageProjectile(prj, packet.Time);
-
                 client.Player.BroadcastSync(new AllyShootPacket
                 {
                     OwnerId = client.Player.Id,

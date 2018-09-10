@@ -60,19 +60,26 @@ public class Camera {
         this.f_.z = -1;
     }
 
-    public function configureCamera(_arg_1:GameObject, _arg_2:Boolean):void {
-        var _local_3:Rectangle = ((Parameters.data_.centerOnPlayer) ? CENTER_SCREEN_RECT : OFFSET_SCREEN_RECT);
+    public function configureCamera(_arg1:GameObject, _arg2:Boolean):void {
+        var playerRect:Rectangle = ((Parameters.data_.centerOnPlayer) ? CENTER_SCREEN_RECT : OFFSET_SCREEN_RECT);
+        var clipRect:Rectangle = playerRect.clone();
+        if(Parameters.data_.fullscreenMod) {
+            clipRect.x = -(Parameters.data_.mscale * 50 * (1 / 2));
+            clipRect.y = -(Parameters.data_.mscale * 50 * (clipRect.y / -600));
+            clipRect.width = Parameters.data_.mscale * 50;
+            clipRect.height = Parameters.data_.mscale * 50;
+        }
         if (Parameters.screenShotMode_) {
             if (!Parameters.screenShotSlimMode_) {
-                _local_3 = SCREENSHOT_SCREEN_RECT;
+                clipRect = SCREENSHOT_SCREEN_RECT;
             }
             else {
-                _local_3 = SLIM_SCREENSHOT_SCREEN_RECT;
+                clipRect = SLIM_SCREENSHOT_SCREEN_RECT;
             }
         }
-        var _local_4:Number = Parameters.data_.cameraAngle;
-        this.configure(_arg_1.x_, _arg_1.y_, 12, _local_4, _local_3);
-        this.isHallucinating_ = _arg_2;
+        var _local4:Number = Parameters.data_.cameraAngle;
+        this.configure(_arg1.x_, _arg1.y_, 12, _local4, clipRect);
+        this.isHallucinating_ = _arg2;
     }
 
     public function startJitter():void {

@@ -9,6 +9,20 @@
       <Index>0xfa</Index>
     </Texture>
   </Ground>
+  
+    <Ground type="0x7070" id="1AncientJungle1">
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0xe1</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x7071" id="1AncientJungle2">
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0xe2</Index>
+    </Texture>
+  </Ground>
 
   <Ground type="0x3004" id="1Pink Purp Crystal Floor">
     <Texture>

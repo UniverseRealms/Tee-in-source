@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
+  <Object type="0x7fce" id="Dragon Tamer Set Skin">
+<Skin/>
+<Class>Skin</Class>
+<AnimatedTexture>
+<File>playerskins16</File>
+<Index>0x0a</Index>
+</AnimatedTexture>
+<PlayerClassType>0x031d</PlayerClassType>
+<UnlockSpecial>Set Skin</UnlockSpecial>
+<NoSkinSelect/>
+</Object>
+  <Object type="0x4c04" id="Hollow King Set Skin">
+<Skin/>
+<Class>Skin</Class>
+<AnimatedTexture>
+<File>playerskins16</File>
+<Index>16</Index>
+</AnimatedTexture>
+<PlayerClassType>0x0321</PlayerClassType>
+<UnlockSpecial>Set Skin</UnlockSpecial>
+<NoSkinSelect/>
+</Object>
+         <Object type="0x7102" id="SorcSTSkin">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins16</File>
+         <Index>17</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0325</PlayerClassType>
+      <UnlockSpecial>Set Skin</UnlockSpecial>
+      <NoSkinSelect/>
+      <DisplayId>{SorcSTSkin}</DisplayId>
+   </Object>
+  
+         <Object type="0x7101" id="AssassinSTSkin">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins16</File>
+         <Index>18</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x0320</PlayerClassType>
+      <UnlockSpecial>Set Skin</UnlockSpecial>
+      <NoSkinSelect/>
+      <DisplayId>{AssassinSTSkin}</DisplayId>
+   </Object>
+ <Object type="0x7100" id="SamuraiSTSkin">
+      <Skin/>
+      <Class>Skin</Class>
+      <AnimatedTexture>
+         <File>playerskins16</File>
+         <Index>20</Index>
+      </AnimatedTexture>
+      <PlayerClassType>0x7106</PlayerClassType>
+      <UnlockSpecial>Set Skin</UnlockSpecial>
+      <NoSkinSelect/>
+      <DisplayId>{SamuraiSTSkin}</DisplayId>
+   </Object>
    <Object type="0x0342" id="Bandit">
       <Skin/>
       <Class>Skin</Class>

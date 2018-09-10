@@ -28,7 +28,7 @@ namespace wServer.logic
                          new TimedTransition(2000, "attack")
                          ),
                      new State("attack",
-                         new Wander(1.0),
+                         new Wander(0.3),
                          new Shoot(3000, count: 12, projectileIndex: 0, fixedAngle: fixedAngle_RingAttack2),
                          new Shoot(10, 1, 0, defaultAngle: 0, angleOffset: 0, projectileIndex: 0, predictive: 1,
                          coolDown: 1000, coolDownOffset: 0),
@@ -38,7 +38,12 @@ namespace wServer.logic
                          ),
                  new Threshold(0.32,
                     new ItemLoot("Potion of Mana", 1),
-                    new ItemLoot("Doku No Ken", 0.007)
+                    new ItemLoot("Potion of Defense", 1),
+                    new ItemLoot("Doku No Ken", 0.007),
+                    new ItemLoot("AssassinST0", 0.007),
+                    new ItemLoot("AssassinST1", 0.007),
+                    new ItemLoot("AssassinST2", 0.007),
+                    new ItemLoot("AssassinST3", 0.007)
                      )
             )
 

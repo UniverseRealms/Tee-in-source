@@ -19,7 +19,7 @@ namespace wServer.realm.worlds
 
         protected override void Init()
         {
-            LoadMap("wServer.realm.worlds.maps.nexus_winter.jm", MapType.Json);
+            LoadMap("wServer.realm.worlds.maps.spriteworld.wmap", MapType.Wmap);
         }
     }
 }

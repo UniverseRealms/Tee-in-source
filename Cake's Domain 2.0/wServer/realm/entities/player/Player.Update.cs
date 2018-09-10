@@ -25,8 +25,49 @@ namespace wServer.realm.entities.player
         private int mapWidth;
         private int tickId;
 
+        private List<IntPoint> getBlocks(int xBase, int yBase)
+        {
+            var blockPos = new List<IntPoint>();
+
+            for (int x = xBase - SIGHTRADIUS; x <= xBase + SIGHTRADIUS; x++)
+            {
+                for (int y = yBase - SIGHTRADIUS; y <= yBase + SIGHTRADIUS; y++)
+                {
+                    WmapTile tile = Owner.Map[x, y].Clone();
+                    if (tile.ObjType != 0)
+                    {
+                        Entity en = Resolve(Manager, tile.ObjType);
+                        if (en.ObjectDesc.BlocksSight)
+                        {
+                            blockPos.Add(new IntPoint(x, y));
+                        }
+                    }
+
+                }
+            }
+
+            return blockPos;
+        }
+
+        private bool invalidTile(int xBase, int yBase, int x, int y, List<IntPoint> blockPos)
+        {
+            foreach (IntPoint pos in blockPos)
+            {
+                if ((yBase == pos.Y && ((xBase < pos.X && x > pos.X) || (xBase > pos.X && x < pos.X))) || (xBase == pos.X && ((yBase > pos.Y && y < pos.Y) || (yBase < pos.Y && y > pos.Y))) || (xBase < pos.X && yBase < pos.Y && x > pos.X && y > pos.Y) || (xBase < pos.X && yBase > pos.Y && x > pos.X && y < pos.Y) || (xBase > pos.X && yBase < pos.Y && x < pos.X && y > pos.Y) || (xBase > pos.X && yBase > pos.Y && x < pos.X && y < pos.Y))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         private IEnumerable<Entity> GetNewEntities()
         {
+            int xBase = (int)X;
+            int yBase = (int)Y;
+            var blockPos = getBlocks(xBase, yBase);
+
+
             foreach (var i in Owner.Players.Where(i => clientEntities.Add(i.Value)))
                 yield return i.Value;
 
@@ -48,7 +89,8 @@ namespace wServer.realm.entities.player
                             (i as Container).BoostedBag = true; //boosted bag
 
                 }
-                if (!(MathsUtils.DistSqr(i.X, i.Y, X, Y) <= SIGHTRADIUS * SIGHTRADIUS)) continue;
+                if ((!(MathsUtils.DistSqr(i.X, i.Y, X, Y) <= SIGHTRADIUS * SIGHTRADIUS))) continue;
+                if (Owner.Dungeon && invalidTile(xBase, yBase, (int)i.X, (int)i.Y, blockPos)) continue;
                 if (clientEntities.Add(i))
                     yield return i;
             }
@@ -79,6 +121,8 @@ namespace wServer.realm.entities.player
         private IEnumerable<ObjectDef> GetNewStatics(int xBase, int yBase)
         {
             var ret = new List<ObjectDef>();
+            var blockPos = getBlocks(xBase, yBase);
+
             foreach (var i in Sight.GetSightCircle(SIGHTRADIUS))
             {
                 var x = i.X + xBase;
@@ -88,7 +132,10 @@ namespace wServer.realm.entities.player
 
                 var tile = Owner.Map[x, y];
 
+                if (Owner.Dungeon && invalidTile(xBase, yBase, x, y, blockPos)) continue;
+
                 if (tile.ObjId == 0 || tile.ObjType == 0 || !clientStatic.Add(new IntPoint(x, y))) continue;
+
                 var def = tile.ToDef(x, y);
                 var cls = Manager.GameData.ObjectDescs[tile.ObjType].Class;
                 if (cls == "ConnectedWall" || cls == "CaveWall")
@@ -117,7 +164,6 @@ namespace wServer.realm.entities.player
                    where objId != 0
                    select i;
         }
-
         public void SendUpdate(RealmTime time)
         {
             mapWidth = Owner.Map.Width;
@@ -127,9 +173,11 @@ namespace wServer.realm.entities.player
             var yBase = (int)Y;
 
             var sendEntities = new HashSet<Entity>(GetNewEntities());
+            var blockPos = getBlocks(xBase, yBase);
 
             var list = new List<UpdatePacket.TileData>(APPOX_AREA_OF_SIGHT);
             var sent = 0;
+
             foreach (var i in Sight.GetSightCircle(SIGHTRADIUS))
             {
                 var x = i.X + xBase;
@@ -141,10 +189,7 @@ namespace wServer.realm.entities.player
                     tiles[x, y] >= (tile = map[x, y]).UpdateCount) continue;
 
                 var world = Manager.GetWorld(Owner.Id);
-                //if (world.Dungeon)
-                //{
-                //    //Todo add blocksight
-                //}
+                if (world.Dungeon && invalidTile(xBase, yBase, x, y, blockPos)) continue;
 
                 list.Add(new UpdatePacket.TileData()
                 {
@@ -156,7 +201,7 @@ namespace wServer.realm.entities.player
                 sent++;
             }
             FameCounter.TileSent(sent);
-             
+
             var dropEntities = GetRemovedEntities().Distinct().ToArray();
             clientEntities.RemoveWhere(_ => Array.IndexOf(dropEntities, _.Id) != -1);
 
@@ -171,12 +216,16 @@ namespace wServer.realm.entities.player
             var removedIds = new List<int>();
             foreach (var i in removeStatics)
             {
-                removedIds.Add(Owner.Map[i.X, i.Y].ObjId);
-                clientStatic.Remove(i);
+                if (Owner.Map[i.X, i.Y].ObjType == 0)
+                {
+                    removedIds.Add(Owner.Map[i.X, i.Y].ObjId);
+                    clientStatic.Remove(i);
+                }
             }
 
             if (sendEntities.Count <= 0 && list.Count <= 0 && dropEntities.Length <= 0 && newStatics.Length <= 0 &&
                 removedIds.Count <= 0) return;
+
             var packet = new UpdatePacket()
             {
                 Tiles = list.ToArray(),
@@ -187,35 +236,10 @@ namespace wServer.realm.entities.player
             UpdatesSend++;
         }
 
-        Projectile oldProj;
-        Projectile newProj;
-
-        int stacktick;
-
-        public void ManageProjectile(Projectile proj, long elapsed)
-        {
-            oldProj = newProj;
-            newProj = proj;
-
-            if (oldProj?.GetPosition(elapsed).X == newProj.GetPosition(elapsed).X
-                && oldProj?.GetPosition(elapsed).Y == newProj.GetPosition(elapsed).Y)
-            {
-                stacktick++;
-                var p = proj.ProjectileOwner as Player;
-                if (stacktick > 4 && p.Inventory[0].NumProjectiles > 1)
-                {
-                    
-                    Log.Warn($"StackShot Detected {p.Name}@!");
-
-                    p.Client.Disconnect();
-                }
-            }
-            
-        }
-
         private void SendNewTick(RealmTime time)
         {
             var sendEntities = new List<Entity>();
+            var blockPos = new List<IntPoint>();
             try
             {
                 foreach (var i in clientEntities.Where(i => i.UpdateCount > lastUpdate[i]))
@@ -235,14 +259,9 @@ namespace wServer.realm.entities.player
                 lastUpdate[Quest] = Quest.UpdateCount;
             }
             var p = new NewTickPacket();
-            
             tickId++;
             p.TickId = tickId;
             p.TickTime = time.thisTickTimes;
-
-            if (tickId % 30 == 0)
-                stacktick = 0;
-
             p.UpdateStatuses = sendEntities.Select(_ => _.ExportStats()).ToArray();
             Client.SendPacket(p);
         }

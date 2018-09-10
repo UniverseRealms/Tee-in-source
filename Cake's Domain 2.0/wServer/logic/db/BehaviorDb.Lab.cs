@@ -188,12 +188,14 @@ namespace wServer.logic
                     new ItemLoot("Potion of Wisdom", 1)
                 ),
                 new Threshold(0.1,
-                    new ItemLoot("Scepter of Fulmination", 0.005),
-                    new ItemLoot("Robe of the Mad Scientist", 0.005),
+                    new ItemLoot("Scepter of Fulmination", 0.008),
+                    new ItemLoot("Robe of the Mad Scientist", 0.008),
                     new ItemLoot("Experimental Ring", 0.01),
                     new ItemLoot("Wine Cellar Incantation", 0.005),
                     new ItemLoot("Golden Nut", 0.01),
                     new ItemLoot("Golden Bolt", 0.01),
+                    new ItemLoot("Golden Nut", 0.01),
+                    new ItemLoot("Abomination's Wrath", 0.009),
                     new ItemLoot("The Magician Tarot Card", 0.01),
                     new ItemLoot("Robobuddy Egg", 0.05),
 
@@ -358,7 +360,12 @@ namespace wServer.logic
                     new Wander(0.5),
                     new ChangeSize(11, 200),
                     new Shoot(10, 2, 20, angleOffset: 0 / 3, projectileIndex: 3, coolDown: 1000)
-                    )
+                         )
+                ),
+                    new Threshold(0.32,
+                    new ItemLoot("Horrific Claws", 0.006),
+                    new ItemLoot("Garment of the Beast", 0.005),
+                    new ItemLoot("Grotesque Scepter", 0.004)
                 )
             )
         .Init("Enforcer Bot 3000",

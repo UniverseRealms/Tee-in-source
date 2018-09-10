@@ -420,25 +420,7 @@ namespace wServer.realm.entities.player
                             }
                         }
                         break;
-                    case ActivateEffects.Fame5000:
-                        {
-                            int Fame = Random.Next(0, 0);
-                            switch (Fame)
-                            {
-                                case 0:
-                                    {
-
-                                        var db = new db.Database();
-
-                                        Fame = db.UpdateFame(Client.Account, 5000);
-                                        UpdateCount++;
-                                        db.Dispose();
-                                        SendHelp("You have acquired 5000 Fame!");
-                                    }
-                                    break;
-                            }
-                        }
-                        break;
+                   
                     case ActivateEffects.Gold50:
                         {
                             int Fame = Random.Next(0, 0);
@@ -524,6 +506,25 @@ namespace wServer.realm.entities.player
                                         UpdateCount++;
                                         db.Dispose();
                                         SendHelp("You have acquired 5000 Gold!");
+                                    }
+                                    break;
+                            }
+                        }
+                        break;
+                    case ActivateEffects.GoldTesting:
+                        {
+                            int Fame = Random.Next(0, 0);
+                            switch (Fame)
+                            {
+                                case 0:
+                                    {
+                                        var db = new db.Database();
+
+                                        Fame = db.UpdateFame(Client.Account, 500000);
+                                        Credits = db.UpdateCredit(Client.Account, 500000);
+                                        UpdateCount++;
+                                        db.Dispose();
+                                        SendHelp("You have acquired 500000 Gold and fame!");
                                     }
                                     break;
                             }

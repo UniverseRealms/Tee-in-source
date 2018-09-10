@@ -17072,3 +17072,469 @@ Port: 2050
 2018-09-02 17:26:39,516 [16] ERROR Server - Not supported server detected: 
 Host: 127.0.0.1
 Port: 2050
+2018-09-03 01:37:00,722 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 01:59:12,178 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:00:04,808 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:00:08,265 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:00:19,509 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:05:38,449 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:07:38,157 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:10:29,156 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:11:25,372 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:11:48,363 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-03 02:13:05,349 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:21:33,797 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:21:33,854 [Entry] WARN  db.data.XmlData - 'Carrots' and 'Carrot of Wisdom' has the same ID of 0x7031!
+2018-09-03 02:23:00,354 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:23:00,429 [Entry] WARN  db.data.XmlData - 'Carrots' and 'Carrot of Wisdom' has the same ID of 0x7031!
+2018-09-03 02:28:55,194 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:28:55,257 [Entry] WARN  db.data.XmlData - 'Carrots' and 'Carrot of Wisdom' has the same ID of 0x7031!
+2018-09-03 02:30:51,858 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 02:30:51,922 [Entry] WARN  db.data.XmlData - 'Carrots' and 'Carrot of Wisdom' has the same ID of 0x7031!
+2018-09-03 02:32:35,908 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 13:01:40,146 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 14:42:41,034 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 14:42:41,100 [Entry] WARN  db.data.XmlData - 'Carrots' and 'Carrot' has the same ID of 0x7036!
+2018-09-03 14:49:17,565 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 14:52:38,688 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 14:56:23,787 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 15:00:13,868 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 15:04:08,044 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 15:05:42,025 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 15:24:54,673 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-03 23:54:50,351 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 00:44:29,921 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 00:46:03,830 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 00:53:23,339 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 00:53:25,303 [3] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 00:55:19,082 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 00:55:48,057 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 00:56:01,976 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 00:57:23,097 [7] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 00:57:44,892 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 01:15:25,812 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 01:16:28,568 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 01:59:38,987 [13] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 02:00:15,878 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 02:00:15,948 [Entry] WARN  db.data.XmlData - 'Loot Bag 9' and '1Nexus Rise' has the same ID of 0x7041!
+2018-09-04 02:03:37,707 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 02:03:39,177 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 02:11:33,849 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 02:15:45,310 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 02:17:14,978 [8] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 02:17:40,407 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 02:19:04,791 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 03:02:22,879 [3] ERROR Server - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Utils.FromString(String x) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Utils.cs:line 109
+   at server.account.purchaseMysteryBox.GetAwards(String items) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\purchaseMysteryBox.cs:line 130
+   at server.account.purchaseMysteryBox.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\purchaseMysteryBox.cs:line 88
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-04 03:03:07,597 [3] ERROR Server - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Utils.FromString(String x) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Utils.cs:line 109
+   at server.account.purchaseMysteryBox.GetAwards(String items) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\purchaseMysteryBox.cs:line 130
+   at server.account.purchaseMysteryBox.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\purchaseMysteryBox.cs:line 88
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-04 03:03:35,527 [3] ERROR Server - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Utils.FromString(String x) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\db\Utils.cs:line 109
+   at server.account.purchaseMysteryBox.GetAwards(String items) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\purchaseMysteryBox.cs:line 130
+   at server.account.purchaseMysteryBox.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\account\purchaseMysteryBox.cs:line 88
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-04 16:48:11,607 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 16:54:29,163 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 16:54:29,260 [Entry] WARN  db.data.XmlData - 'Carrot's Revenge Basic' and 'Bleedingfg' has the same ID of 0x7032!
+2018-09-04 17:12:39,257 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 17:12:39,340 [Entry] WARN  db.data.XmlData - 'Carrot's Revenge Basic' and 'Bleedingfg' has the same ID of 0x7032!
+2018-09-04 17:13:12,992 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 17:15:46,642 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 17:15:48,615 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 17:24:25,924 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 17:24:28,681 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 17:30:22,530 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 17:30:24,162 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 17:44:18,121 [9] ERROR Server - System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'server.app.getLanguageStrings' threw an exception. ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\bin\Debug\app\Languages\de.txt'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at server.app.getLanguageStrings..cctor()
+   --- End of inner exception stack trace ---
+   at server.app.getLanguageStrings..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args, Object[] activationAttributes)
+   at server.Program.ProcessRequest(HttpListenerContext context)
+2018-09-04 17:45:48,140 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 17:47:20,129 [8] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 17:47:56,466 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 17:49:19,206 [8] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 17:50:24,120 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 17:51:58,174 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 17:52:00,177 [6] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 17:55:02,775 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 17:57:38,204 [12] ERROR Server - Not supported server detected: 
+Host: 127.0.0.1
+Port: 2050
+2018-09-04 17:57:59,830 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 19:25:59,328 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 19:30:14,718 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 19:31:24,074 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 19:41:04,657 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 20:45:24,408 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 22:03:59,024 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 23:07:26,959 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 23:16:54,534 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 23:19:58,372 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 23:29:53,587 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-04 23:41:43,888 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 01:33:18,320 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 01:38:01,393 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 01:39:12,973 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 01:39:15,079 [3] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-05 01:54:43,021 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 18:55:58,898 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 19:41:30,089 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 19:46:24,525 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 19:48:25,195 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 20:02:56,428 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 20:15:25,498 [7] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-05 20:43:57,386 [11] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-05 20:43:57,617 [12] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-05 20:44:22,120 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 20:54:39,338 [11] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-05 20:54:56,384 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 20:55:53,184 [3] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-05 20:55:54,599 [6] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-05 20:55:58,995 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-05 21:12:29,386 [7] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-05 21:12:33,640 [7] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-05 22:17:27,469 [8] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-05 23:53:22,610 [9] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-05 23:53:31,858 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-07 02:11:07,786 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-07 03:53:23,171 [10] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.app.getLanguageStrings.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\app\getLanguageStrings.cs:line 37
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-07 03:53:23,302 [9] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.sfx.Sfx.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\sfx\Sfx.cs:line 26
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 107
+2018-09-07 03:53:26,589 [9] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.sfx.Sfx.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\sfx\Sfx.cs:line 26
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 107
+2018-09-07 03:53:27,534 [10] ERROR Server - System.Net.HttpListenerException (0x80004005): The specified network name is no longer available
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.app.getLanguageStrings.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\app\getLanguageStrings.cs:line 37
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-07 04:11:12,421 [3] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.app.getLanguageStrings.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\app\getLanguageStrings.cs:line 37
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-07 07:05:08,100 [6] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-07 07:05:15,945 [6] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-07 07:05:18,133 [6] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-07 10:40:42,640 [9] ERROR Server - System.Net.HttpListenerException (0x80004005): The specified network name is no longer available
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.app.getLanguageStrings.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\app\getLanguageStrings.cs:line 37
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-07 10:40:52,903 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.sfx.Sfx.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\sfx\Sfx.cs:line 26
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 107
+2018-09-07 12:30:52,871 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-07 17:41:21,049 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-07 22:30:43,833 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-07 23:04:15,941 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 00:02:25,338 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 15:31:56,271 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 16:56:23,463 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 16:56:41,359 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 16:59:49,516 [8] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-08 17:22:13,627 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 19:28:19,976 [11] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-08 20:23:21,621 [20] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-08 20:24:07,280 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 20:26:18,210 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 22:09:01,526 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 22:30:29,125 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 22:30:31,122 [6] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-08 23:03:35,029 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 23:09:15,385 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 23:09:17,889 [6] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-08 23:16:04,074 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 23:17:18,905 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 23:17:21,254 [6] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-08 23:25:42,793 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 23:45:14,748 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-08 23:51:38,911 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 00:39:47,120 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 01:11:40,790 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 02:07:30,833 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 02:09:45,045 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 02:23:33,481 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 02:23:42,250 [3] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.sfx.Sfx.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\sfx\Sfx.cs:line 26
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 107
+2018-09-09 02:23:54,283 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.sfx.Sfx.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\sfx\Sfx.cs:line 26
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 107
+2018-09-09 02:33:26,083 [15] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-09 02:33:26,083 [12] ERROR Server - Not supported server detected: 
+Host: 25.8.144.4
+Port: 2050
+2018-09-09 02:34:05,110 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 02:34:10,581 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.sfx.Sfx.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\sfx\Sfx.cs:line 26
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 107
+2018-09-09 02:34:14,043 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): The specified network name is no longer available
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.app.getLanguageStrings.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\app\getLanguageStrings.cs:line 37
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-09 02:34:15,239 [6] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.sfx.Sfx.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\sfx\Sfx.cs:line 26
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 107
+2018-09-09 02:35:32,424 [9] ERROR Server - System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   at System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   at System.Net.HttpListenerResponse.Close()
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 108
+2018-09-09 03:12:49,883 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 03:15:22,048 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 03:16:55,092 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 03:36:33,903 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 05:48:26,223 [9] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.app.getLanguageStrings.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\app\getLanguageStrings.cs:line 37
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-09 05:48:26,224 [7] ERROR Server - System.Net.HttpListenerException (0x80004005): The specified network name is no longer available
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.sfx.Sfx.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\sfx\Sfx.cs:line 26
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 107
+2018-09-09 08:04:51,621 [10] ERROR Server - System.InvalidOperationException: There was an error generating the XML document. ---> System.Net.HttpListenerException: The specified network name is no longer available
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   at System.Xml.XmlUtf8RawTextWriter.RawText(Char* pSrcBegin, Char* pSrcEnd)
+   at System.Xml.XmlUtf8RawTextWriter.RawText(String s)
+   at System.Xml.XmlUtf8RawTextWriter.WriteEndElement(String prefix, String localName, String ns)
+   at System.Xml.XmlUtf8RawTextWriterIndent.WriteEndElement(String prefix, String localName, String ns)
+   at System.Xml.XmlWellFormedWriter.WriteEndElement()
+   at System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(String localName, String ns, String value, XmlQualifiedName xsiType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write7_Guild(String n, String ns, Guild o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write11_Account(String n, String ns, Account o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   at server.char.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\char\list.cs:line 106
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-09 08:05:19,575 [3] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.sfx.Sfx.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\sfx\Sfx.cs:line 26
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 107
+2018-09-09 08:06:19,718 [7] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.app.getLanguageStrings.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\app\getLanguageStrings.cs:line 37
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-09 08:13:05,815 [3] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.sfx.Sfx.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\sfx\Sfx.cs:line 26
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 107
+2018-09-09 08:17:31,929 [3] ERROR Server - System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   at System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   at System.Net.HttpListenerResponse.Close()
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 108
+2018-09-09 08:29:32,674 [3] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-09 09:30:22,153 [9] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-09 09:30:24,104 [9] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-09 09:30:37,548 [10] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.sfx.Sfx.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\sfx\Sfx.cs:line 26
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 107
+2018-09-09 13:27:58,799 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 14:25:00,330 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 15:16:17,322 [20] ERROR Server - System.InvalidOperationException: There was an error generating the XML document. ---> System.Net.HttpListenerException: The specified network name is no longer available
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   at System.Xml.XmlUtf8RawTextWriter.WriteRawWithCharChecking(Char* pSrcBegin, Char* pSrcEnd)
+   at System.Xml.XmlUtf8RawTextWriter.WriteRaw(String data)
+   at System.Xml.XmlUtf8RawTextWriterIndent.WriteRaw(String data)
+   at System.Xml.XmlWellFormedWriter.WriteRaw(String data)
+   at System.Xml.Serialization.XmlSerializationWriter.WriteElementStringRaw(String localName, String ns, String value, XmlQualifiedName xsiType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write4_Char(String n, String ns, Char o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write17_Chars(String n, String ns, Chars o, Boolean isNullable, Boolean needType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterChars.Write18_Chars(Object o)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   at System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces)
+   at server.char.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\char\list.cs:line 106
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-09 15:17:53,288 [3] ERROR Server - System.Net.HttpListenerException (0x80004005): The I/O operation has been aborted because of either a thread exit or an application request
+   at System.Net.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at server.sfx.Sfx.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\sfx\Sfx.cs:line 26
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 107
+2018-09-09 15:17:53,337 [3] ERROR Server - System.Net.HttpListenerException (0x80004005): An operation was attempted on a nonexistent network connection
+   at System.Net.HttpResponseStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.Net.HttpListenerResponse.Dispose(Boolean disposing)
+   at System.Net.HttpListenerResponse.System.IDisposable.Dispose()
+   at System.Net.HttpListenerResponse.Close()
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 108
+2018-09-09 21:54:25,662 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 22:01:45,344 [3] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-09 22:01:49,497 [12] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-09 22:01:51,209 [12] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-09 22:01:51,652 [12] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156
+2018-09-09 22:18:01,672 [Entry] WARN  db.data.XmlData - 0x0065 and 0x0061 has the same name of Grey Circle!
+2018-09-09 22:27:35,274 [3] ERROR Server - System.NullReferenceException: Object reference not set to an instance of an object.
+   at server.fame.list.HandleRequest() in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\fame\list.cs:line 107
+   at server.RequestHandler.HandleRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\RequestHandlers.cs:line 38
+   at server.Program.ProcessRequest(HttpListenerContext context) in C:\Users\raphe\OneDrive\Desktop\Tidan's Sourcefiles\Source\Cake's Domain 2.0\server\Program.cs:line 156

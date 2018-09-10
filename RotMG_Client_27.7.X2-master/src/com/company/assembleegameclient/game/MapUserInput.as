@@ -1,4 +1,5 @@
 ﻿package com.company.assembleegameclient.game {
+import com.company.assembleegameclient.parameters.Parameters;
 import com.company.assembleegameclient.map.Square;
 import com.company.assembleegameclient.objects.GameObject;
 import com.company.assembleegameclient.objects.ObjectLibrary;
@@ -59,6 +60,7 @@ public class MapUserInput {
     private var rotateRight_:Boolean = false;
     private var mouseDown_:Boolean = false;
     private var autofire_:Boolean = false;
+
     private var currentString:String = "";
     private var specialKeyDown_:Boolean = false;
     private var enablePlayerInput_:Boolean = true;
@@ -99,6 +101,8 @@ public class MapUserInput {
         this.areFKeysAvailable = _local_3.areDeveloperHotkeysEnabled();
         this.gs_.map.signalRenderSwitch.add(this.onRenderSwitch);
     }
+
+
 
     public function onRenderSwitch(_arg_1:Boolean):void {
         if (_arg_1) {
@@ -448,6 +452,10 @@ public class MapUserInput {
                 break;
             case Parameters.data_.toggleCentering:
                 Parameters.data_.centerOnPlayer = !(Parameters.data_.centerOnPlayer);
+                Parameters.save();
+                break;
+            case Parameters.data_.PictureMode:
+                Parameters.data_.onPictureMode = !(Parameters.data_.onPictureMode);
                 Parameters.save();
                 break;
             case Parameters.data_.toggleFullscreen:

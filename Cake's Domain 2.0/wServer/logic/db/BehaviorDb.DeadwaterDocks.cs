@@ -36,7 +36,7 @@ namespace wServer.logic
                     new State("NoSpawn"
                         ),
                     new State("SpawnParrots",
-                    new Reproduce("Deadwater Docks Parrot", 5, densityMax: 5, coolDown: 2500)
+                    new Spawn("Deadwater Docks Parrot", 5, coolDown: 2500)
                     )
                  )
               )
@@ -48,7 +48,7 @@ namespace wServer.logic
                         ),
                     new State("drop",
                        new ApplySetpiece("BottledEvil"),
-                       new Suicide()
+                       new Decay()
                     )))
           .Init("Deadwater Docks Lieutenant",
                 new State(
@@ -114,7 +114,7 @@ namespace wServer.logic
                 new State(
                     new RealmPortalDrop(),
                     new State("default",
-                        new ConditionalEffect(ConditionEffectIndex.Invincible),
+                        new Taunt(true, "With Dreadstump gone, I’m the new king!"),
                         new PlayerWithinTransition(8, "coinphase")
                         ),
                   new State(
@@ -122,11 +122,13 @@ namespace wServer.logic
                     new DamageTakenTransition(32500, "gotoSpawn"),
                     new State("coinphase",
                         new Wander(0.11),
+                        new Taunt(true, "Dodge this!"),
                         new Shoot(10, count: 1, projectileIndex: 0, coolDown: 2000),
                         new TimedTransition(4500, "cannonballs")
                         ),
                     new State("cannonballs",
                         new Follow(0.32, 8, coolDown: 1000),
+                        new Taunt(true, "Check out my AWESOME CANNON CLUSTER!"),
                         new Shoot(10, count: 7, shootAngle: 30, projectileIndex: 1, coolDown: 2150),
                         new TimedTransition(5000, "coinphase")
                         )
@@ -135,17 +137,20 @@ namespace wServer.logic
                     new State("gotoSpawn",
                         new ReturnToSpawn(once: true, speed: 0.52),
                         new ConditionalEffect(ConditionEffectIndex.Invincible),
+                        new Taunt(true, "Dreadstump was a dreadCHUMP! And so are you!"),
                         new ConditionalEffect(ConditionEffectIndex.StunImmune),
                         new TimedTransition(3500, "blastcannonballs")
                         ),
                     new State("blastcannonballs",
                         new ConditionalEffect(ConditionEffectIndex.StunImmune),
+                        new Taunt(true, "CANNON BARRAGE!"),
                         new Order(90, "Deadwater Docks Parrot", "CircleOrWander"),
                         new Shoot(10, count: 7, shootAngle: 30, projectileIndex: 1, coolDown: 1750),
                         new TimedTransition(6000, "parrotcircle")
                         ),
                     new State("parrotcircle",
                         new ConditionalEffect(ConditionEffectIndex.StunImmune),
+                        new Taunt(true, "Now you’re making me angry! PARROT BARRIER ACTIVATE!"),
                         new Order(90, "Deadwater Docks Parrot", "Orbit&HealJon"),
                         new TimedTransition(6000, "blastcannonballs")
                         )
@@ -162,8 +167,7 @@ namespace wServer.logic
                     new TierLoot(11, ItemType.Armor, 0.05),
                     new TierLoot(11, ItemType.Weapon, 0.05),
                     new TierLoot(4, ItemType.Ring, 0.025),
-                    new ItemLoot("Pirate King's Cutlass", 0.024),
-                    new ItemLoot("Seal of Understanding", 0.012)
+                    new ItemLoot("Pirate King's Cutlass", 0.024)
                 )
             )
             ;

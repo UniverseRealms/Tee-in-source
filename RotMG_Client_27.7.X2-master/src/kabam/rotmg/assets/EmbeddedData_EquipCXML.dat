@@ -1,7 +1,1260 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
+  <Object type="0x7fcc" id="Dragon Arrow">
+<Class>Projectile</Class>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x0a</Index>
+</Texture>
+<AngleCorrection>1</AngleCorrection>
+</Object>
+    
+  <Object type="0x9dc" id="NecroST0" setType="0x000e" setName="Hollow King Necromancer Set">
+<DisplayId>Edictum Praetoris</DisplayId>
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0xf8</Index>
+</Texture>
+<SlotType>17</SlotType>
+<Description>
+My staff led me to a strange arena, which seemed to have a dark aura about it.
+</Description>
+<RateOfFire>0.75</RateOfFire>
+<Sound>weapon/wand_of_dark_magic</Sound>
+<Projectile>
+<ObjectId>SpiritSpiral</ObjectId>
+<Speed>150</Speed>
+<MinDamage>40</MinDamage>
+<MaxDamage>105</MaxDamage>
+<LifetimeMS>570</LifetimeMS>
+<Frequency>1</Frequency>
+<Amplitude>0.3</Amplitude>
+<Size>70</Size>
+</Projectile>
+<NumProjectiles>3</NumProjectiles>
+<ArcGap>3</ArcGap>
+<FameBonus>5</FameBonus>
+<feedPower>700</feedPower>
+<BagType>8</BagType>
+<Soulbound/>
+<OldSound>magicShoot</OldSound>
+</Object>
+<Object type="0x9dd" id="NecroST1" setType="0x000e" setName="Hollow King Necromancer Set">
+<DisplayId>Memento Mori</DisplayId>
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0xf9</Index>
+</Texture>
+<Usable/>
+<SlotType>19</SlotType>
+<Description>
+I found a great spectre floating above me. He reached out and granted me his cranium.
+</Description>
+<MpCost>120</MpCost>
+<Activate radius="3.5" totalDamage="400" color="1a4a6b">VampireBlast</Activate>
+<Activate effect="Damaging" duration="3">ConditionEffectSelf</Activate>
+<ActivateOnEquip stat="26" amount="5">IncrementStat</ActivateOnEquip>
+<ExtraTooltipData>
+<EffectInfo name="" description="Does not heal."/>
+</ExtraTooltipData>
+<FameBonus>6</FameBonus>
+<feedPower>900</feedPower>
+<BagType>8</BagType>
+<Soulbound/>
+</Object>
+<Object type="0x9de" id="NecroST2" setType="0x000e" setName="Hollow King Necromancer Set">
+<DisplayId>Toga Picta</DisplayId>
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0xfa</Index>
+</Texture>
+<SlotType>14</SlotType>
+<Description>
+His gift was gracious, but I would not dabble in spirits. He challenged me to a duel.
+</Description>
+<ActivateOnEquip stat="20" amount="8">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="21" amount="13">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="26" amount="4">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="28" amount="-3">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="3" amount="35">IncrementStat</ActivateOnEquip>
+<FameBonus>4</FameBonus>
+<feedPower>600</feedPower>
+<BagType>8</BagType>
+<Soulbound/>
+</Object>
+<Object type="0x9df" id="NecroST3" setType="0x000e" setName="Hollow King Necromancer Set">
+<DisplayId>Interregnum</DisplayId>
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0xfb</Index>
+</Texture>
+<SlotType>9</SlotType>
+<Description>
+Our fight was glorious, but in the end, I fell in battle and joined him in undeath.
+</Description>
+<ActivateOnEquip stat="0" amount="75">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="26" amount="5">IncrementStat</ActivateOnEquip>
+<FameBonus>4</FameBonus>
+<feedPower>650</feedPower>
+<BagType>8</BagType>
+<Soulbound/>
+</Object>
+  <Object type="0x7fce" id="Dragon Tamer Set Skin">
+<Skin/>
+<Class>Skin</Class>
+<AnimatedTexture>
+<File>playerskins16</File>
+<Index>0x0a</Index>
+</AnimatedTexture>
+<PlayerClassType>0x031d</PlayerClassType>
+<UnlockSpecial>Set Skin</UnlockSpecial>
+<NoSkinSelect/>
+</Object>
+  <Object type="0x4c04" id="Hollow King Set Skin">
+<Skin/>
+<Class>Skin</Class>
+<AnimatedTexture>
+<File>playerskins16</File>
+<Index>16</Index>
+</AnimatedTexture>
+<PlayerClassType>0x0321</PlayerClassType>
+<UnlockSpecial>Set Skin</UnlockSpecial>
+<NoSkinSelect/>
+</Object>
+  <Object type="0x7fb9" id="Zaarvox's Heart" setType="0x7fcb" setName="Dragon Tamer Set">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x02</Index>
+</Texture>
+<SlotType>7</SlotType>
+<Description>
+Made from the Heart of Zaarvox by Ulricht the first Dragon Tamer.
+</Description>
+<ActivateOnEquip stat="21" amount="17">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="22" amount="6">IncrementStat</ActivateOnEquip>
+<BagType>8</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>500</feedPower>
+<Soulbound/>
+</Object>
+  <Object type="0x9da" id="SpiritSpiral">
+<Class>Projectile</Class>
+<Texture>
+<File>lofiObj7</File>
+<Index>0xf6</Index>
+</Texture>
+<Rotation>50</Rotation>
+</Object>
+<Object type="0x9db" id="SuperSpiritSpiral">
+<Class>Projectile</Class>
+<Texture>
+<File>lofiObj7</File>
+<Index>0xf7</Index>
+</Texture>
+<Rotation>70</Rotation>
+</Object>
+<Object type="0x7fba" id="Amulet of Drakefyre" setType="0x7fcb" setName="Dragon Tamer Set">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x03</Index>
+</Texture>
+<SlotType>9</SlotType>
+<Description>
+Given to the initiates who survive the first challenge.
+</Description>
+<ActivateOnEquip stat="0" amount="115">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+<BagType>8</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>500</feedPower>
+<Soulbound/>
+</Object>
+  
+<Object type="0x7fbb" id="Helm of Draconic Dominance" setType="0x7fcb" setName="Dragon Tamer Set">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x01</Index>
+</Texture>
+<SlotType>16</SlotType>
+<Description>
+The last piece of the Taming ritual requires a man to be bound to a Dragon. Wizards were able to link a man to a Dragon's spirit using magic and pain. Using its powers comes with a great cost.
+</Description>
+<Sound>spell/fire_spray</Sound>
+<ExtraTooltipData>
+<EffectInfo name="Effect on Self:" description=""/>
+</ExtraTooltipData>
+<Activate stat="0" amount="250" duration="10" visualEffect="8">StatBoostSelf</Activate>
+<Activate effect="Paralyzed" duration="2" range="2.5" color="0xffa500" target="enemy" center="player">GenericActivate</Activate>
+<ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+<Usable/>
+<BagType>8</BagType>
+<FameBonus>4</FameBonus>
+<MpCost>90</MpCost>
+<Cooldown>10</Cooldown>
+<feedPower>800</feedPower>
+<Soulbound/>
+</Object>
+  
+<Object type="0x7fbc" id="Indomptable" setType="0x7fcb" setName="Dragon Tamer Set">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x00</Index>                   
+</Texture>
+<SlotType>1</SlotType>
+<Description>
+All initiates who start the path of becoming a Dragon Tamer are given a special weapon. If an initiate completes the Path alive, this weapon is given a name by the Elders.
+</Description>
+<RateOfFire>0.25</RateOfFire>
+<Sound>weapon/mithril_sword</Sound>
+<Projectile>
+<ObjectId>Fire Bust Shot</ObjectId>
+<Speed>70</Speed>
+<MinDamage>566</MinDamage>
+<MaxDamage>650</MaxDamage>
+<LifetimeMS>500</LifetimeMS>
+<Size>100</Size>
+<MultiHit/>
+</Projectile>
+<ActivateOnEquip stat="21" amount="-10">IncrementStat</ActivateOnEquip>
+<BagType>8</BagType>
+<FameBonus>4</FameBonus>
+<OldSound>bladeSwing</OldSound>
+<feedPower>900</feedPower>
+<Soulbound/>
+</Object>
 
+     <Object type="0x7082" id="SamuraiST1" setType="0xf3d" setName="Akuma Slayer Set">
+<DisplayId>Ryu's Blade</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+<File>lofiObj4</File>
+<Index>0xaa</Index>
+</Texture>
+      <SlotType>27</SlotType>
+      <Description>{Calls upon old energy to unleash a swarm of dragon like energy spirits into your katana.}</Description>
+      <Sound>spell/fire_spray</Sound>
+        <Activate stat="0" amount="50" duration="7" range="4.5" noStack="true" useWisMod="false">StatBoostAura</Activate>
+        <Activate stat="20" amount="15" duration="7" range="2" noStack="true" useWisMod="false">StatBoostAura</Activate>
+        <Activate stat="28" amount="15" duration="7" range="2" noStack="true" useWisMod="false">StatBoostAura</Activate>
+      <Usable/>
+        <Cooldown>7.5</Cooldown>
+      <BagType>6</BagType>
+      <MultiPhase/>
+      <feedPower>500</feedPower>
+   </Object>
+  
+  
+            <Object type="0x7111" id="Royal Wakizashi">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj6</File>
+<Index>0xe6</Index>
+</Texture>
+<SlotType>27</SlotType>
+<Tier>6</Tier>
+              <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="2">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="20" amount="6">IncrementStat</ActivateOnEquip>
+<Description>A gorgeous wakizashi made of starmetal and gifted to an ancient king by the god Shinsetsuna for his devotion.</Description>
+<Usable/>
+<BagType>4</BagType>
+<MpCost>80</MpCost>
+<FameBonus>4</FameBonus>
+<Activate stat="20" amount="24" duration="7" range="3" noStack="true" useWisMod="false">StatBoostAura</Activate>
+<Activate stat="28" amount="24" duration="7" range="3" noStack="true" useWisMod="false">StatBoostAura</Activate>
+              <Cooldown>7.5</Cooldown>
+<feedPower>385</feedPower>
+</Object>
+  
+    
+          <Object type="0x7110" id="Jade-Imbued Wakizashi">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj6</File>
+<Index>0xe5</Index>
+</Texture>
+<SlotType>27</SlotType>
+<Tier>5</Tier>
+<ActivateOnEquip stat="20" amount="6">IncrementStat</ActivateOnEquip>
+<Description>A wakizashi adorned with sea green stones, only given to the greatest swordsmen by the Grand Emperor himself.</Description>
+<Usable/>
+<BagType>4</BagType>
+<MpCost>80</MpCost>
+<FameBonus>3</FameBonus>
+<Activate stat="20" amount="20" duration="7" range="3" noStack="true" useWisMod="false">StatBoostAura</Activate>
+<Activate stat="28" amount="24" duration="7" range="3" noStack="true" useWisMod="false">StatBoostAura</Activate>
+            <Cooldown>7.5</Cooldown>
+<feedPower>185</feedPower>
+</Object>
+    
+          <Object type="0x7109" id="Turquoise Wakizashi">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj6</File>
+<Index>0xe4</Index>
+</Texture>
+<SlotType>27</SlotType>
+<Tier>4</Tier>
+<ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+<Description>A beautiful wakizashi, adorned with shining gemstones found within the extensive cavern, Okina Tomi.</Description>
+<Usable/>
+<BagType>2</BagType>
+<MpCost>70</MpCost>
+<FameBonus>2</FameBonus>
+<Activate stat="20" amount="16" duration="7" range="3" noStack="true" useWisMod="false">StatBoostAura</Activate>
+<Activate stat="28" amount="20" duration="7" range="3" noStack="true" useWisMod="false">StatBoostAura</Activate>
+            <Cooldown>7.5</Cooldown>
+<feedPower>95</feedPower>
+</Object>
+  
+        <Object type="0x7108" id="Enforced Wakizashi">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj6</File>
+<Index>0xe3</Index>
+</Texture>
+<SlotType>27</SlotType>
+<Tier>3</Tier>
+          <ActivateOnEquip stat="20" amount="3">IncrementStat</ActivateOnEquip>
+<Description>A heavy wakizashi created and used by a secluded sect of powerful swordsmen.</Description>
+<Usable/>
+<BagType>2</BagType>
+<MpCost>65</MpCost>
+<FameBonus>1</FameBonus>
+<Activate stat="20" amount="13" duration="7" range="3" noStack="true" useWisMod="false">StatBoostAura</Activate>
+<Activate stat="28" amount="16" duration="7" range="3" noStack="true" useWisMod="false">StatBoostAura</Activate>
+          <Cooldown>7.5</Cooldown>
+<feedPower>45</feedPower>
+</Object>
+  
+      <Object type="0x7107" id="Crimson Wakizashi">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj6</File>
+<Index>0xe2</Index>
+</Texture>
+<SlotType>27</SlotType>
+<Tier>2</Tier>
+        <ActivateOnEquip stat="20" amount="2">IncrementStat</ActivateOnEquip>
+<Description>A deep red wakizashi made of bronze.</Description>
+<Usable/>
+<BagType>1</BagType>
+<MpCost>55</MpCost>
+<FameBonus>1</FameBonus>
+<Activate stat="20" amount="9" duration="7" range="3" noStack="true" useWisMod="false">StatBoostAura</Activate>
+<Activate stat="28" amount="12" duration="7" range="3" noStack="true" useWisMod="false">StatBoostAura</Activate>
+        <Cooldown>7.5</Cooldown>
+<feedPower>25</feedPower>
+</Object>
+    
+    <Object type="0x7112" id="Steel Wakizashi">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj6</File>
+<Index>0xe1</Index>
+</Texture>
+<SlotType>27</SlotType>
+<Tier>1</Tier>
+      <ActivateOnEquip stat="20" amount="1">IncrementStat</ActivateOnEquip>
+<Description>A heavy wakizashi crafted by a fine metalworker.</Description>
+<Usable/>
+<BagType>0</BagType>
+<MpCost>45</MpCost>
+<Activate stat="20" amount="6" duration="7" range="2" noStack="true" useWisMod="false">StatBoostAura</Activate>
+<Activate stat="28" amount="8" duration="7" range="2" noStack="true" useWisMod="false">StatBoostAura</Activate>
+      <Cooldown>7.5</Cooldown>
+<feedPower>15</feedPower>
+</Object>
+    
+  <Object type="0x7105" id="Simple Wakizashi">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj6</File>
+<Index>0xe0</Index>
+</Texture>
+<SlotType>27</SlotType>
+<Tier>0</Tier>
+<Description>A simple but effective blade to kill enemies with.</Description>
+<Usable/>
+<BagType>1</BagType>
+<MpCost>40</MpCost>
+<Activate stat="20" amount="2" duration="7" range="2" noStack="true" useWisMod="false">StatBoostAura</Activate>
+<Activate stat="28" amount="4" duration="7" range="2" noStack="true" useWisMod="false">StatBoostAura</Activate>
+    <Cooldown>7.5</Cooldown>
+<feedPower>5</feedPower>
+</Object>
+
+<Object type="0x7091" id="Advanced Scroll">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0xf9</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>{Scroll given to you by the owner. Allows you to 8/8 your character in two clicks.}</Description>
+    <Sound>use_potion</Sound>
+    <Activate stat="20" amount="100">IncrementStat</Activate>
+    <Activate stat="21" amount="100">IncrementStat</Activate>
+    <Activate stat="22" amount="100">IncrementStat</Activate>
+    <Activate stat="26" amount="100">IncrementStat</Activate>
+    <Activate stat="27" amount="100">IncrementStat</Activate>
+    <Activate stat="28" amount="100">IncrementStat</Activate>
+    <Activate stat="0" amount="1000">IncrementStat</Activate>
+    <Activate stat="3" amount="1000">IncrementStat</Activate>
+    <Activate>GoldTesting</Activate>
+    <Consumable/>
+    <Potion/>
+    <BagType>6</BagType>
+    <feedPower>500</feedPower>
+    <DisplayId>{Advanced Scroll}</DisplayId>
+  </Object>
+  
+       <Object type="0x7090" id="Barrel Loot">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xee</Index>
+      </Texture>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <Defense>35</Defense>
+      <Size>100</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>{Barrel Loot}</DisplayId>
+   </Object>
+
+  <Object type="0x90e" id="Horrific Proj">
+<Class>Projectile</Class>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x84</Index>
+</Texture>
+<AngleCorrection>1</AngleCorrection>
+</Object>
+<Object type="0x90f" id="Horrific Proj Big">
+<Class>Projectile</Class>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x85</Index>
+</Texture>
+<AngleCorrection>1</AngleCorrection>
+</Object>
+  
+  <Object type="0xbbc" id="Abomination's Wrath" setType="0x000d" setName="Horrific Sorcerer Set">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x80</Index>
+</Texture>
+<SlotType>8</SlotType>
+<Description>
+Although destroyed, the beast's brute strength remains deeply embedded in this odd wand. Its rage possesses you, and lends you its force.
+</Description>
+<DisplayId>Abomination's Wrath</DisplayId>
+<OldSound>magicShoot</OldSound>
+<RateOfFire>0.53</RateOfFire>
+<Projectile>
+<ObjectId>Horrific Proj</ObjectId>
+<Speed>110</Speed>
+<MinDamage>225</MinDamage>
+<MaxDamage>265</MaxDamage>
+<LifetimeMS>818</LifetimeMS>
+</Projectile>
+<BagType>8</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>500</feedPower>
+<Soulbound/>
+</Object>
+<Object type="0xbbd" id="Grotesque Scepter" setType="0x000d" setName="Horrific Sorcerer Set">
+<Class>Equipment</Class>
+<Item/>
+<Usable/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x81</Index>
+</Texture>
+<SlotType>23</SlotType>
+<Description>
+A scepter that can be evoked to unleash overwhelmingly powerful blasts upon others. Even the most crazed scientists wouldn’t use this scepter without taking note of its side effects.
+</Description>
+<DisplayId>Grotesque Scepter</DisplayId>
+<ActivateOnEquip stat="22" amount="4">IncrementStat</ActivateOnEquip>
+<Activate totalDamage="935" decrDamage="135" wisDamageBase="60" maxTargets="3" wisPerTarget="13" color="0xC3F740">Lightning</Activate>
+<Activate effect="Hexed" duration="1">ConditionEffectSelf</Activate>
+<Activate effect="Stunned" duration="1">ConditionEffectSelf</Activate>
+<Cooldown>0.5</Cooldown>
+<MpCost>100</MpCost>
+<BagType>8</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>500</feedPower>
+<Soulbound/>
+</Object>
+<Object type="0xbbe" id="Garment of the Beast" setType="0x000d" setName="Horrific Sorcerer Set">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x82</Index>
+</Texture>
+<SlotType>14</SlotType>
+<Description>
+A rigid hide, chemically engineered by Dr. Terrible and reinforced with rough scales. Though torn apart during battle, it remains powerful.
+</Description>
+<DisplayId>Garment of the Beast</DisplayId>
+<ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="3" amount="50">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="28" amount="-5">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="20" amount="8">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="27" amount="4">IncrementStat</ActivateOnEquip>
+<BagType>8</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>500</feedPower>
+<Soulbound/>
+</Object>
+<Object type="0xbbf" id="Horrific Claws" setType="0x000d" setName="Horrific Sorcerer Set">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x83</Index>
+</Texture>
+<SlotType>9</SlotType>
+<Description>
+Fetid claws imbued with dangerous chemicals, pulled from the Horrific Creation.
+</Description>
+<DisplayId>Horrific Claws</DisplayId>
+<ActivateOnEquip stat="0" amount="40">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="3" amount="50">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="28" amount="-3">IncrementStat</ActivateOnEquip>
+<BagType>8</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>500</feedPower>
+<Soulbound/>
+</Object>
+  
+  <Object type="0x51b" id="Parasitic Stab">
+<Class>Projectile</Class>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x90</Index>
+</Texture>
+<AngleCorrection>1</AngleCorrection>
+<Size>80</Size>
+</Object>
+<Object type="0x518" id="Parasitic Blast">
+<Class>Projectile</Class>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x91</Index>
+</Texture>
+<AngleCorrection>1</AngleCorrection>
+<Size>100</Size>
+</Object>
+    
+  <Object type="0xbd8" id="AssassinST0" setType="0x0011" setName="Flesh Collector Set">
+<DisplayId>Symbiotic Ripper</DisplayId>
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x92</Index>
+</Texture>
+<SlotType>2</SlotType>
+<Description>
+The melding of these creatures and their host is one of pain and suffering.
+</Description>
+<Sound>weapon/fire_dagger</Sound>
+<OldSound>daggerSwing</OldSound>
+<Projectile>
+<ObjectId>Parasitic Stab</ObjectId>
+<Speed>75</Speed>
+<MinDamage>117</MinDamage>
+<MaxDamage>190</MaxDamage>
+<LifetimeMS>747</LifetimeMS>
+</Projectile>
+<RateOfFire>1.2</RateOfFire>
+<NumProjectiles>1</NumProjectiles>
+<ActivateOnEquip stat="26" amount="-2">IncrementStat</ActivateOnEquip>
+<BagType>8</BagType>
+<feedPower>750</feedPower>
+<FameBonus>5</FameBonus>
+<Soulbound/>
+</Object>
+<Object type="0xbd9" id="AssassinST1" setType="0x0011" setName="Flesh Collector Set">
+<DisplayId>Parasitic Concoction</DisplayId>
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x93</Index>
+</Texture>
+<SlotType>18</SlotType>
+<Description>
+Swarming cells fill this jar, prepared to bind to whatever may foolishly approach them.
+</Description>
+<Activate radius="2.67" totalDamage="495" duration="3" condEffect="Curse" condDuration="3" throwTime=".9" color="0xFF8585">PoisonGrenade</Activate>
+<ActivateOnEquip stat="20" amount="2">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="26" amount="-2">IncrementStat</ActivateOnEquip>
+<MpCost>120</MpCost>
+<Usable/>
+<BagType>8</BagType>
+<feedPower>850</feedPower>
+<FameBonus>6</FameBonus>
+<Soulbound/>
+</Object>
+<Object type="0xbda" id="AssassinST2" setType="0x0011" setName="Flesh Collector Set">
+<DisplayId>Rags of the Host</DisplayId>
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x94</Index>
+</Texture>
+<SlotType>6</SlotType>
+<Description>
+The parasites wait until the most opportune time, then strike at their targets. They become hosts to a greater evil.
+</Description>
+<ActivateOnEquip stat="21" amount="15">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="20" amount="6">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="26" amount="-2">IncrementStat</ActivateOnEquip>
+<BagType>8</BagType>
+<feedPower>700</feedPower>
+<FameBonus>4</FameBonus>
+<Soulbound/>
+</Object>
+<Object type="0xbdb" id="AssassinST3" setType="0x0011" setName="Flesh Collector Set">
+<DisplayId>Hivemind Circlet</DisplayId>
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj7</File>
+<Index>0x95</Index>
+</Texture>
+<SlotType>9</SlotType>
+<Description>
+The parasites are not individual beings; they share a single consciousness.
+</Description>
+<ActivateOnEquip stat="3" amount="100">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="27" amount="5">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="26" amount="-2">IncrementStat</ActivateOnEquip>
+<BagType>8</BagType>
+<feedPower>650</feedPower>
+<FameBonus>4</FameBonus>
+<Soulbound/>
+</Object>
+
+  <Object type="0x7084" id="Katana Akuma Slash">
+<Class>Projectile</Class>
+<Texture>
+<File>lofiObj4</File>
+<Index>0xad</Index>
+</Texture>
+<AngleCorrection>1</AngleCorrection>
+</Object>
+  
+<Object type="0x7083" id="Katana Akuma Slash big">
+<Class>Projectile</Class>
+<Texture>
+<File>lofiObj4</File>
+<Index>0xae</Index>
+</Texture>
+<AngleCorrection>1</AngleCorrection>
+</Object>
+  
+       
+<Object type="0x7079" id="SamuraiST0" setType="0xf3d" setName="Akuma Slayer Set">
+<DisplayId>Kazekiri</DisplayId>
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj4</File>
+<Index>0xa9</Index>
+</Texture>
+<OldSound>bladeSwing</OldSound>
+<SlotType>24</SlotType>
+<Description>A Katana made to harness the energy of the Wind.</Description>
+<RateOfFire>0.8</RateOfFire>
+<Projectile>
+<ObjectId>Katana Akuma Slash</ObjectId>
+<Speed>150</Speed>
+<MinDamage>100</MinDamage>
+<MaxDamage>120</MaxDamage>
+<LifetimeMS>300</LifetimeMS>
+<Amplitude>0.4</Amplitude>
+<Frequency>0.5</Frequency>
+<MultiHit/>
+<PassesCover/>
+</Projectile>
+<NumProjectiles>2</NumProjectiles>
+<ArcGap>0</ArcGap>
+<BagType>6</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>500</feedPower>
+<Soulbound/>
+</Object>
+  
+  <Object type="0x7080" id="SamuraiST3" setType="0xf3d" setName="Akuma Slayer Set">
+<DisplayId>Akuma's Tear</DisplayId>
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj4</File>
+<Index>0xac</Index>
+</Texture>
+<SlotType>9</SlotType>
+<Description>
+The first and last teardrop of the ominous fiery demon.
+</Description>
+<ActivateOnEquip stat="0" amount="30">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="3" amount="40">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="28" amount="7">IncrementStat</ActivateOnEquip>
+<BagType>6</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>500</feedPower>
+<Soulbound/>
+</Object>
+  
+  <Object type="0x7081" id="SamuraiST2" setType="0xf3d" setName="Akuma Slayer Set">
+<DisplayId>Kamishimo</DisplayId>
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File>lofiObj4</File>
+<Index>0xab</Index>
+</Texture>
+<SlotType>7</SlotType>
+<Description>
+While being made of soft fabric, this outfit is mysteriously sturdy.
+</Description>
+<ActivateOnEquip stat="21" amount="14">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="0" amount="60">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="28" amount="4">IncrementStat</ActivateOnEquip>
+<BagType>6</BagType>
+<FameBonus>4</FameBonus>
+<feedPower>500</feedPower>
+<Soulbound/>
+</Object>
+    
+  <Object type="0x7078" id="Sealed Crystal Skull">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+         <File>lofiObj4</File>
+         <Index>0xd4</Index>
+      </Texture>
+<SlotType>19</SlotType>
+<Description>
+An undamaged version of a well known archaeological artifact, radiating a potent dark energy. This rare find is coveted by many explorers.
+</Description>
+<Usable/>
+<BagType>6</BagType>
+<FameBonus>5</FameBonus>
+<MpCost>100</MpCost>
+<ActivateOnEquip stat="0" amount="50">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="28" amount="4">IncrementStat</ActivateOnEquip>
+<ActivateOnEquip stat="26" amount="4">IncrementStat</ActivateOnEquip>
+<Activate radius="5" totalDamage="130" heal="100" ignoreDef="35" wisDamageBase="30">VampireBlast</Activate>
+<feedPower>900</feedPower>
+<Soulbound/>
+</Object>
+  
+     <Object type="0x7077" id="Jungle Event Loot Chest">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xd3</Index>
+      </Texture>
+      <MaxHitPoints>30000</MaxHitPoints>
+      <Defense>35</Defense>
+      <Size>160</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>{Jungle Event Loot Chest}</DisplayId>
+   </Object>
+
+    <Object type="0x7076" id="1Golden Totem Spawner">
+      <Class>Character</Class>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <Size>0</Size>
+      <XpMult>0.0</XpMult>
+      <StasisImmune/>
+      <DisplayId>1Golden Totem Spawner</DisplayId>
+   </Object>
+
+   <Object type="0x7075" id="1Jungle Wall">
+      <Class>Wall</Class>
+       <Texture>
+            <File>lofiObj4</File>
+         <Index>0xd2</Index>
+         </Texture>
+      <Top>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xe2</Index>
+      </Texture>
+      </Top>
+      <HitSound>monster/wooden_walls_hit</HitSound>
+      <DeathSound>monster/wooden_walls_death</DeathSound>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <XpMult>0.0</XpMult>
+      <BlocksSight/>
+      <DisplayId>{1Jungle Wall}</DisplayId>
+   </Object>
+  
+     <Object type="0x7069" id="Ancient Jungle Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DungeonName>Ancient Jungle</DungeonName>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xf1</Index>
+      </Texture>
+      <Size>100</Size>
+      <DisplayId>{Ancient Jungle Portal}</DisplayId>
+   </Object>
+  
+   <Object type="0x7068" id="Ancient Jungle Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xf0</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A dungeon that was once a jungle and now covered in honey and taken by the bees.</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Activate id="Ancient Jungle Portal">Create</Activate>
+      <feedPower>250</feedPower>
+      <DisplayId>{Ancient Jungle Key}</DisplayId>
+   </Object>
+  
+     <Object type="0x7067" id="Potion of Unknown">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xef</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{A scroll that allows you to learn (Gives +10 in every stat +70 in life/mana)}</Description>
+      <Sound>use_potion</Sound>
+       <Activate stat="22" amount="10">IncrementStat</Activate>
+       <Activate stat="26" amount="10">IncrementStat</Activate>
+       <Activate stat="28" amount="10">IncrementStat</Activate>
+       <Activate stat="27" amount="10">IncrementStat</Activate>
+       <Activate stat="21" amount="10">IncrementStat</Activate>
+       <Activate stat="20" amount="10">IncrementStat</Activate>
+       <Activate stat="0" amount="70">IncrementStat</Activate>
+       <Activate stat="3" amount="70">IncrementStat</Activate>
+      <Consumable/>
+      <Potion/>
+      <BagType>6</BagType>
+      <feedPower>500</feedPower>
+      <DisplayId>{Potion of Unknown}</DisplayId>
+   </Object>
+  
+     <Object type="0x7066" id="Primaeval The Ancient Totem">
+      <Group>EpicForbiddenJungle</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <Hero/>
+      <Quest/>
+      <God/>
+      <Encounter/>
+      <StasisImmune/>
+      <Level>20</Level>
+    
+         <AnimatedTexture>
+          <File>chars16x16dMountains1</File>
+          <Index>0x09</Index>
+         </AnimatedTexture>
+     
+       <Projectile id="0">
+         <ObjectId>Yellow paralyze shot</ObjectId>
+         <Damage>180</Damage>
+         <Speed>50</Speed>
+         <Size>100</Size>
+         <LifetimeMS>3000</LifetimeMS>
+        <ConditionEffect duration="1">Paralyzed</ConditionEffect>
+      </Projectile>
+       <Projectile id="1">
+        <ObjectId>Yellow Spin Shot</ObjectId>
+         <Damage>130</Damage>
+         <Speed>60</Speed>
+         <Size>100</Size>
+         <LifetimeMS>3000</LifetimeMS>
+        <ArmorPiercing/>
+      </Projectile>
+      <Projectile id="2">
+         <ObjectId>Red Bleeding shot</ObjectId>
+         <Damage>5</Damage>
+         <Speed>120</Speed>
+         <Size>100</Size>
+         <LifetimeMS>3000</LifetimeMS>
+         <ConditionEffect duration="5">Bleeding</ConditionEffect>
+      </Projectile>
+      <Projectile id="3">
+        <ObjectId>Gray confused Spin shot</ObjectId>
+         <Damage>50</Damage>
+         <Speed>70</Speed>
+         <Size>100</Size>
+         <LifetimeMS>3000</LifetimeMS>
+         <ConditionEffect duration="0.5">Confused</ConditionEffect>
+        <ArmorPiercing/>
+      </Projectile>
+      <Projectile id="4">
+        <ObjectId>Yellow Blast Shot</ObjectId>
+         <Damage>250</Damage>
+         <Speed>90</Speed>
+         <Size>100</Size>
+         <LifetimeMS>3000</LifetimeMS>
+      </Projectile>
+      <Size>140</Size>
+      <MaxHitPoints>120000</MaxHitPoints>
+      <Defense>60</Defense>
+      <XpMult>0.3</XpMult>
+      <DisplayId>{Primaeval The Ancient Totem}</DisplayId>
+   </Object>
+  
+  
+    
+  
+     <Object type="0x7064" id="Yellow Blast Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xf4</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+  
+     <Object type="0x7063" id="Yellow paralyze shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xf5</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+  
+     <Object type="0x7062" id="Red Bleeding shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xf8</Index>
+      </Texture>
+      <AngleCorrection>1</AngleCorrection>
+   </Object>
+  
+     <Object type="0x7061" id="Gray confused Spin shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xf7</Index>
+      </Texture>
+      <Rotation>70</Rotation>
+   </Object>
+  
+     <Object type="0x7060" id="Yellow Spin Shot">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xf6</Index>
+      </Texture>
+      <Rotation>70</Rotation>
+   </Object>
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+    
+    
+    
+    
+    
+  
+     <Object type="0x7050" id="Golden Totem">
+       
+      <Static/>
+      <Group>EpicForbiddenJungle</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <AnimatedTexture>
+          <File>chars16x16dMountains1</File>
+         <Index>0x08</Index>
+      </AnimatedTexture>
+      <HitSound>monster/stone_walls_hit</HitSound>
+      <DeathSound>monster/stone_walls_death</DeathSound>
+      <Size>140</Size>
+      <ShadowSize>80</ShadowSize>
+       
+      <Projectile id="0">
+         <ObjectId>Paralyzedfg</ObjectId>
+         <Damage>80</Damage>
+         <Speed>50</Speed>
+         <Size>100</Size>
+         <LifetimeMS>1600</LifetimeMS>
+        <ConditionEffect duration="1">Paralyzed</ConditionEffect>
+        <ArmorPiercing/>
+      </Projectile>
+      
+       <Projectile id="1">
+         <ObjectId>Bleedingfg</ObjectId>
+         <Damage>80</Damage>
+         <Speed>50</Speed>
+         <Size>100</Size>
+         <LifetimeMS>1600</LifetimeMS>
+         <ConditionEffect duration="2">Bleeding</ConditionEffect>
+        <ArmorPiercing/>
+      </Projectile>
+       
+      <DisplayId>{Golden Totem}</DisplayId>
+   </Object>
+  
+   <Object type="0x7051" id="Paralyzedfg">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xf3</Index>
+      </Texture>
+      <Rotation>70</Rotation>
+   </Object>
+  
+     <Object type="0x7052" id="Bleedingfg">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xf2</Index>
+      </Texture>
+      <Rotation>70</Rotation>
+   </Object>
+  
+
+     <Object type="0x7049" id="1Nexus Rise">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <StasisImmune/>
+      <Effect color="0xe85353" rate="50" life="3" lifeVariance=".25" speed="0" speedVariance=".5" size="5" rise="-.6" riseVariance=".1" rangeX="40" rangeY="80">CustomParticles</Effect>
+      <DisplayId>{Nexus Rise}</DisplayId>
+   </Object>
+  
+       <Object type="0x7048" id="1Nexus Rise2">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <StasisImmune/>
+      <Effect color="0x30e88c" rate="50" life="3" lifeVariance=".25" speed="0" speedVariance=".5" size="5" rise="-.6" riseVariance=".1" rangeX="40" rangeY="80">CustomParticles</Effect>
+      <DisplayId>{Nexus Rise}</DisplayId>
+   </Object>
+  
+         <Object type="0x7047" id="1Nexus Rise3">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <Size>0</Size>
+      <ShadowSize>0</ShadowSize>
+      <NoMiniMap/>
+      <StasisImmune/>
+      <Effect color="0x8e4589" rate="50" life="3" lifeVariance=".25" speed="0" speedVariance=".5" size="5" rise="-.6" riseVariance=".1" rangeX="40" rangeY="80">CustomParticles</Effect>
+      <DisplayId>{Nexus Rise}</DisplayId>
+   </Object>
+  
+  
+    <Object type="0x7040" id="Planted Carrot">
+      <Group>Flamers</Group>
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x0f</Index>
+      </Texture>
+      <HitSound>monster/demons_hit</HitSound>
+      <DeathSound>monster/demons_death</DeathSound>
+      <Projectile id="0">
+         <ObjectId>White Flame</ObjectId>
+         <Speed>80</Speed>
+         <Damage>70</Damage>
+         <Size>100</Size>
+         <LifetimeMS>2500</LifetimeMS>
+         <MultiHit/>
+         <Amplitude>0.3</Amplitude>
+         <Frequency>0.5</Frequency>
+      </Projectile>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Size>90</Size>
+      <Defense>0</Defense>
+      <XpMult>0.0</XpMult>
+      <DisplayId>{Planted Carrot}</DisplayId>
+   </Object>
+  
+   <Object type="0x7072" id="Loot Bag 8">
+      <DisplayId>{Loot Bag 8}</DisplayId>
+      <Class>Container</Class>
+      <Container/>
+      <CanPutNormalObjects/>
+      <CanPutSoulboundObjects/>
+      <Loot/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x96</Index>
+      </Texture>
+      <Size>80</Size>
+      <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+   </Object>
+  
+   <Object type="0x7041" id="Loot Bag 9">
+      <DisplayId>{Loot Bag 9}</DisplayId>
+      <Class>Container</Class>
+      <Container/>
+      <CanPutNormalObjects/>
+      <CanPutSoulboundObjects/>
+      <Loot/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x97</Index>
+      </Texture>
+      <Size>80</Size>
+      <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+   </Object>
+  
+   <Object type="0x7035" id="Loot Bag 10">
+      <DisplayId>{Loot Bag 10}</DisplayId>
+      <Class>Container</Class>
+      <Container/>
+      <CanPutNormalObjects/>
+      <CanPutSoulboundObjects/>
+      <Loot/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x98</Index>
+      </Texture>
+      <Size>80</Size>
+      <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+   </Object>
+    <Object type="0x7033" id="Carrot's Revenge">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xfb</Index>
+      </Texture>
+      <SlotType>25</SlotType>
+      <Description>{A four star carrot blade made by nature.}</Description>
+      <Sound>spell/fire_spray</Sound>
+      <ExtraTooltipData>
+         <EffectInfo name="{equip.While_Key_Held}" description=""/>
+         <EffectInfo name="" description="{equip.Speedy_on_self}"/>
+         <EffectInfo name="" description="{equip.Drain_10_MP/sec}"/>
+         <EffectInfo name="{equip.When_Key_Released}" description=""/>
+      </ExtraTooltipData>
+      <Projectile>
+         <ObjectId>Carrot's Revenge Basic</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>170</MinDamage>
+         <MaxDamage>325</MaxDamage>
+         <LifetimeMS>1300</LifetimeMS>
+         <Size>100</Size>
+         <PassesCover/>
+         <MultiHit/>
+      </Projectile>
+      <Usable/>
+      <BagType>9</BagType>
+      <MpCost>0</MpCost>
+      <MpEndCost>50</MpEndCost>
+      <MultiPhase/>
+      <Activate>ShurikenAbility</Activate>
+      <feedPower>250</feedPower>
+      <DisplayId>{Carrot's Revenge}</DisplayId>
+   </Object>
+   
+       <Object type="0x7032" id="Carrot's Revenge Basic">
+      <Class>Projectile</Class>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xfb</Index>
+      </Texture>
+      <Rotation>70</Rotation>
+   </Object>
+  
+   <Object type="0x7031" id="Carrot of Wisdom">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0xfa</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>{A carrot that permanently increases wisdom.}</Description>
+      <Sound>use_potion</Sound>
+      <Activate stat="27" amount="1">IncrementStat</Activate>
+      <Consumable/>
+      <Potion/>
+      <BagType>5</BagType>
+      <feedPower>50</feedPower>
+      <DisplayId>{Carrot of Wisdom}</DisplayId>
+   </Object>
 
     <Object type="0x7017" id="Light Iron Boots">
     <Class>Equipment</Class>
@@ -244,7 +1497,7 @@
       <DisplayId>{Blade of Flame Justice}</DisplayId>
    </Object>
   
-  <Object type="0x7004" id="Common Daily Quest Token">
+     <Object type="0x7004" id="Common Daily Quest Token">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -254,7 +1507,6 @@
       <SlotType>90</SlotType>
        <Weeklyquest/>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
-      <Consumable/>
       <BagType>3</BagType>
       <feedPower>300</feedPower>
       <Soulbound/>
@@ -271,7 +1523,7 @@
      <Weeklyquest/>
       <SlotType>90</SlotType>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
-      <Consumable/>
+      
       <BagType>3</BagType>
       <feedPower>300</feedPower>
       <Soulbound/>
@@ -288,14 +1540,14 @@
       <SlotType>90</SlotType>
       <Weeklyquest/>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
-      <Consumable/>
+
       <BagType>3</BagType>
       <feedPower>300</feedPower>
       <Soulbound/>
       <DisplayId>{Rare Daily Quest Token}</DisplayId>
    </Object>
   
-   <Object type="0x7002" id="Epic Daily Quest Token">
+   <Object type="0x7022" id="Epic Daily Quest Token">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -305,13 +1557,12 @@
       <SlotType>90</SlotType>
       <Weeklyquest/>
       <Description>{Give it to the Daily Quest to obtain some loot.}</Description>
-      <Consumable/>
+
       <BagType>3</BagType>
       <feedPower>300</feedPower>
       <Soulbound/>
       <DisplayId>{Epic Daily Quest Token}</DisplayId>
    </Object>
-   
    <Object type="0xc85" id="Common Feline Egg">
       <Class>Equipment</Class>
       <Item/>

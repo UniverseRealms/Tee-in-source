@@ -4,8 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using wServer.realm.entities.player;
 using wServer.networking.cliPackets;
 using wServer.networking.svrPackets;
+using MySql.Data.MySqlClient;
+
 
 namespace wServer.networking.handlers
 {
@@ -29,6 +32,7 @@ namespace wServer.networking.handlers
                         Message = client.Player.GetLanguageString("server.quest_complete")
                     });
                     client.Player.Inventory[packet.Object.SlotId] = null;
+
                     GiveRewards(db, client.Player.DailyQuest.Tier - 1);
                     var cmd = db.CreateQuery();
                     int tier = client.Player.DailyQuest.Tier == DailyQuestConstants.QuestsPerDay ? -1 : (client.Player.DailyQuest.Tier + 1);
@@ -45,10 +49,27 @@ namespace wServer.networking.handlers
 
         private void GiveRewards(Database db, int index)
         {
+            List<int> gifts = new List<int>();
+
             switch (DailyQuestConstants.Rewards[index])
+
             {
-                case "FortuneToken":
+                case "FortuneToken:1":
+                    Client.Player.Tokens = db.UpdateFortuneToken(Client.Account, +1);
+                    break;
+                case "FortuneToken:2":
                     Client.Player.Tokens = db.UpdateFortuneToken(Client.Account, +2);
+                    break;
+                case "FortuneToken:3":
+                    Client.Player.Tokens = db.UpdateFortuneToken(Client.Account, +2);
+                    break;
+                case "Item:1":
+                    gifts.Add(3276);
+                    db.AddGifts(Client.Account, gifts);
+                    break;
+                case "Item:2":
+                    gifts.Add(3290);
+                    db.AddGifts(Client.Account, gifts);
                     break;
             }
         }

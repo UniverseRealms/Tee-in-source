@@ -13,12 +13,12 @@ namespace wServer.realm.worlds
             Name = "The Shatters";
             ClientWorldName = "shatters.The_Shatters";
             Background = 0;
-            AllowTeleport = true;
+            AllowTeleport = false;
         }
 
         protected override void Init()
         {
-            LoadMap("wServer.realm.worlds.maps.ShattersMike.jm", MapType.Json);
+            LoadMap("wServer.realm.worlds.maps.shittersmep.wmap", MapType.Wmap);
             Entity en = Entity.Resolve(Manager, "shtrs Bridge Titanum");
             en.Move(233.5f, 36.5f);
             this.EnterWorld(en);

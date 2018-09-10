@@ -1,5 +1,26 @@
 <GroundTypes>
 
+  <Ground type="0x7114" id="1Temple Servantfloor">
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0xe8</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x7070" id="1AncientJungle1">
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0xe1</Index>
+    </Texture>
+  </Ground>
+
+  <Ground type="0x7071" id="1AncientJungle2">
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0xe2</Index>
+    </Texture>
+  </Ground>
+
   <Ground type="0x3005" id="1Purple">
     <Texture>
       <File>lofiObj5</File>

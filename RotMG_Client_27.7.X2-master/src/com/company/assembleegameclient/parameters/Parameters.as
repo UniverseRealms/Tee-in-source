@@ -112,14 +112,17 @@ public class Parameters {
     }
 
     public static function setDefaults():void {
+        setDefault("mscale", 1.2);
+        setDefaultKey("PictureMode", KeyCodes.UNSET);
+        setDefault("onPictureMode", true);
         setDefaultKey("moveLeft", KeyCodes.A);
         setDefaultKey("moveRight", KeyCodes.D);
         setDefaultKey("moveUp", KeyCodes.W);
         setDefaultKey("moveDown", KeyCodes.S);
-        setDefaultKey("rotateLeft", KeyCodes.Q);
-        setDefaultKey("rotateRight", KeyCodes.E);
+        setDefaultKey("rotateLeft", KeyCodes.UNSET);
+        setDefaultKey("rotateRight", KeyCodes.UNSET);
         setDefaultKey("useSpecial", KeyCodes.SPACE);
-        setDefaultKey("interact", KeyCodes.NUMBER_0);
+        setDefaultKey("interact", KeyCodes.R);
         setDefaultKey("useInvSlot1", KeyCodes.NUMBER_1);
         setDefaultKey("useInvSlot2", KeyCodes.NUMBER_2);
         setDefaultKey("useInvSlot3", KeyCodes.NUMBER_3);
@@ -129,7 +132,7 @@ public class Parameters {
         setDefaultKey("useInvSlot7", KeyCodes.NUMBER_7);
         setDefaultKey("useInvSlot8", KeyCodes.NUMBER_8);
         setDefaultKey("escapeToNexus2", KeyCodes.F5);
-        setDefaultKey("escapeToNexus", KeyCodes.R);
+        setDefaultKey("escapeToNexus", KeyCodes.E);
         setDefaultKey("autofireToggle", KeyCodes.I);
         setDefaultKey("scrollChatUp", KeyCodes.PAGE_UP);
         setDefaultKey("scrollChatDown", KeyCodes.PAGE_DOWN);
@@ -200,7 +203,7 @@ public class Parameters {
         }
         setDefault("forceChatQuality", false);
         setDefault("hidePlayerChat", false);
-        setDefault("chatStarRequirement", 1);
+        setDefault("chatStarRequirement", 0);
         setDefault("chatAll", true);
         setDefault("chatWhisper", true);
         setDefault("chatGuild", true);
@@ -223,7 +226,7 @@ public class Parameters {
         setDefault("tradeWithFriends", false);
         setDefault("chatFriend", false);
         setDefault("friendStarRequirement", 0);
-        setDefault("HPBar", false);
+        setDefault("HPBar", true);
         if (!data_.hasOwnProperty("needsSurvey")) {
             data_.needsSurvey = data_.needsTutorial;
             switch (int((Math.random() * 5))) {

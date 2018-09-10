@@ -299,6 +299,9 @@ namespace wServer.realm
                     Clients.TryRemove(acc.AccountId, out dummy);
             bool ret = Clients.TryAdd(psr.Account.AccountId, psr);
             return ret;
+
+           
+
         }
 
         private void OnWorldAdded(World world)

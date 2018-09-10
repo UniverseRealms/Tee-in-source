@@ -168,13 +168,12 @@ namespace wServer.realm.entities
             {0x2290, new Tuple<int, CurrencyType>(200, CurrencyType.Gold)}, //Bella's Key - just temporary for testing
 
             {0x701, new Tuple<int, CurrencyType>(75, CurrencyType.Gold)}, //Undead Lair Key
-            {0x705, new Tuple<int, CurrencyType>(50, CurrencyType.Gold)}, //Pirate Cave Key
+            {0x7068, new Tuple<int, CurrencyType>(250, CurrencyType.Gold)}, //Epic Jungle key
             {0x70a, new Tuple<int, CurrencyType>(75, CurrencyType.Gold)}, //Abyss of Demons Key
             {0x70b, new Tuple<int, CurrencyType>(50, CurrencyType.Gold)}, //Snake Pit Key
             {0x710, new Tuple<int, CurrencyType>(100, CurrencyType.Gold)}, //Tomb of the Ancients Key
             {0x71f, new Tuple<int, CurrencyType>(75, CurrencyType.Gold)}, //Sprite World Key
             {0xc11, new Tuple<int, CurrencyType>(100, CurrencyType.Gold)}, //Ocean Trench Key
-            {0xc19, new Tuple<int, CurrencyType>(75, CurrencyType.Gold)}, //Totem Key
             {0xc23, new Tuple<int, CurrencyType>(100, CurrencyType.Gold)}, //Manor Key
             {0xc2e, new Tuple<int, CurrencyType>(100, CurrencyType.Gold)}, //Davy's Key
             {0xc2f, new Tuple<int, CurrencyType>(100, CurrencyType.Gold)}, //Lab Key
@@ -197,7 +196,7 @@ namespace wServer.realm.entities
 
         public static int[] store1List =
         {
-            0xcdd, 0xcda, 0xccf, 0xcce, 0xc2f, 0xc2e, 0xc23, 0xc19, 0xc11, 0x71f, 0x710,
+            0x7068, 0xcdd, 0xcda, 0xccf, 0xcce, 0xc2f, 0xc2e, 0xc23, 0xc19, 0xc11, 0x71f, 0x710,
             0x70b, 0x70a, 0x705, 0x701, 0x2290
         };
 

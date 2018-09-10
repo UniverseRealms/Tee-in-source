@@ -1,5 +1,6 @@
 ﻿package kabam.rotmg.ui.view {
 import com.company.assembleegameclient.objects.Player;
+import com.company.assembleegameclient.parameters.Parameters;
 import com.company.assembleegameclient.ui.ExperienceBoostTimerPopup;
 import com.company.assembleegameclient.ui.StatusBar;
 
@@ -35,6 +36,8 @@ public class StatMetersView extends Sprite {
 
     public function update(_arg_1:Player):void {
         this.expBar_.setLabelText(TextKey.EXP_BAR_LEVEL, {"level": _arg_1.level_});
+
+
         if (_arg_1.level_ != 20) {
             if (this.expTimer) {
                 this.expTimer.update(_arg_1.xpTimer);
@@ -93,6 +96,10 @@ public class StatMetersView extends Sprite {
             this.expTimer = null;
         }
     }
+
+
+
+
 
 
 }

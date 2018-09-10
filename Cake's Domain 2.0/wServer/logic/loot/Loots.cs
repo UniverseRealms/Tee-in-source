@@ -199,6 +199,16 @@ namespace wServer.logic.loot
                 case 7:
                     bag = 0xfff;
                     break;
+
+                case 8:
+                    bag = 0x050E;
+                    break;
+                case 9:
+                    bag = 0x050F;
+                    break;
+                case 10:
+                    bag = 0x7035;
+                    break;
             }
             Container container = new Container(enemy.Manager, bag, 1000 * 30, true);
             for (int j = 0; j < 8; j++)

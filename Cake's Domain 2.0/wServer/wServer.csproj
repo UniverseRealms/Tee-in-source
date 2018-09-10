@@ -125,6 +125,7 @@
   <ItemGroup>
     <Compile Include="GeneratorCache.cs" />
     <Compile Include="logic\Behavior.cs" />
+    <Compile Include="logic\behaviors\ScaleHP.cs" />
     <Compile Include="logic\behaviors\Aoe.cs" />
     <Compile Include="logic\behaviors\ApplySetpiece.cs" />
     <Compile Include="logic\behaviors\BackAndForth.cs" />
@@ -155,6 +156,8 @@
     <Compile Include="logic\db\BehaviorDb.Abyss.cs" />
     <Compile Include="logic\db\BehaviorDb.Avatar.cs" />
     <Compile Include="logic\db\BehaviorDb.Battlenexus.cs" />
+    <Compile Include="logic\db\BehaviorDb.TempleServant.cs" />
+    <Compile Include="logic\db\BehaviorDb.LowLandsPlants.cs" />
     <Compile Include="logic\db\BehaviorDb.Beachzone.cs" />
     <Compile Include="logic\db\BehaviorDb.BeerGod.cs" />
     <Compile Include="logic\db\BehaviorDb.Belladonna.cs" />
@@ -208,6 +211,7 @@
     <Compile Include="logic\db\BehaviorDb.Shore.cs" />
     <Compile Include="logic\db\BehaviorDb.Shybo.cs" />
     <Compile Include="logic\db\BehaviorDb.SkullShrine.cs" />
+    <Compile Include="logic\db\BehaviorDb.EpicForbiddenJungle.cs" />
     <Compile Include="logic\db\BehaviorDb.SnakePit.cs" />
     <Compile Include="logic\db\BehaviorDb.Specialized.cs" />
     <Compile Include="logic\db\BehaviorDb.Sphinx.cs" />
@@ -484,6 +488,8 @@
     <Compile Include="realm\Utils.cs" />
     <Compile Include="realm\Wmap.cs" />
     <Compile Include="realm\World.cs" />
+    <Compile Include="realm\worlds\TempleServant.cs" />
+    <Compile Include="realm\worlds\AncientJungle.cs" />
     <Compile Include="realm\worlds\BattlefortheNexus.cs" />
     <Compile Include="realm\worlds\Arena.cs" />
     <Compile Include="realm\worlds\Beachzone.cs" />
@@ -516,8 +522,6 @@
     <Compile Include="realm\worlds\SpiderDen.cs" />
     <Compile Include="realm\worlds\SpriteWorld.cs" />
     <Compile Include="realm\worlds\SnakePit.cs" />
-    <Compile Include="realm\worlds\TheShatters.cs" />
-    <Compile Include="realm\worlds\TomboftheAncients.cs" />
     <Compile Include="realm\worlds\LairofShaitan.cs" />
     <Compile Include="realm\worlds\PetYard.cs" />
     <Compile Include="realm\worlds\AbyssofDemons.cs" />
@@ -529,6 +533,8 @@
     <Compile Include="realm\worlds\OryxCastle.cs" />
     <Compile Include="realm\worlds\RandRealm.cs" />
     <Compile Include="realm\worlds\Test.cs" />
+    <Compile Include="realm\worlds\TheShatters.cs" />
+    <Compile Include="realm\worlds\TomboftheAncients.cs" />
     <Compile Include="realm\worlds\Tutorial.cs" />
     <Compile Include="realm\worlds\UndeadLair.cs" />
     <Compile Include="realm\worlds\Vault.cs" />
@@ -689,7 +695,10 @@
     <EmbeddedResource Include="realm\worlds\maps\crawling.wmap" />
     <EmbeddedResource Include="realm\worlds\maps\davy.jm" />
     <EmbeddedResource Include="realm\worlds\maps\udl.jm" />
-    <None Include="realm\worlds\maps\BalloonCave.jm" />
+    <EmbeddedResource Include="realm\worlds\maps\AncientJungle.jm" />
+    <EmbeddedResource Include="realm\worlds\maps\TempleServant.jm" />
+    <None Include="realm\worlds\maps\candyland.wmap" />
+    <EmbeddedResource Include="realm\worlds\maps\vault.jm" />
     <None Include="wServer.cfg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

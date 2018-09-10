@@ -9,9 +9,10 @@ namespace db
         public static string[] Rewards { get; } =
         {
             "FortuneToken:1",
-            "FortuneToken:1",
             "FortuneToken:2",
-            "FortuneToken:2"
+            "FortuneToken:3",
+            "Item:1",
+            "Item:2"
         };
 
         public static string[] Descriptions { get; } =

@@ -29,7 +29,7 @@ namespace wServer.realm
             Tuple.Create("Pentaract", (ISetPiece) new Pentaract()),
             Tuple.Create("Grand Sphinx", (ISetPiece) new Sphinx()),
             Tuple.Create("Cube God", (ISetPiece) new CubeGod()),
-            //Tuple.Create("lord of the Lost Lands", (ISetPiece) new Lotll()),
+            Tuple.Create("lord of the Lost Lands", (ISetPiece) new Lotll()),
             Tuple.Create("Hermit God", (ISetPiece) new Hermit()),
         };
 
@@ -115,6 +115,7 @@ namespace wServer.realm
                             Tuple.Create("Paper Golem", 0.04),
                             Tuple.Create("Big Green Slime", 0.08),
                             Tuple.Create("Swarm", 0.05),
+                            Tuple.Create("Planted Carrot", 0.5),
                             Tuple.Create("Wasp Queen", 0.2),
                             Tuple.Create("Shambling Sludge", 0.03),
                             Tuple.Create("Orc King", 0.06)
@@ -126,6 +127,7 @@ namespace wServer.realm
                         {
                             Tuple.Create("Dwarf King", 0.3),
                             Tuple.Create("Metal Golem", 0.05),
+                            Tuple.Create("Planted Carrot", 0.5),
                             Tuple.Create("Clockwork Golem", 0.05),
                             Tuple.Create("Werelion", 0.1),
                             Tuple.Create("Horned Drake", 0.3),
@@ -186,6 +188,7 @@ namespace wServer.realm
                         Tuple.Create("Ghost God", 0.09),
                         Tuple.Create("Rock Bot", 0.05),
                         Tuple.Create("Djinn", 0.09),
+                        Tuple.Create("Barrel Loot", 0.02),
                         Tuple.Create("Leviathan", 0.09),
                         Tuple.Create("Arena Headless Horseman", 0.01)
                     })

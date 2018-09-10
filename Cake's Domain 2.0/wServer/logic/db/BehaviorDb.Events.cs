@@ -15,11 +15,14 @@ namespace wServer.logic
 
             .Init("Skull Shrine",
                 new State(
+                    new DropPortalOnDeath("Ancient Jungle Portal", percent: 75, dropDelaySec: 2),
+                    new State("Nothing",
                     new Shoot(25, 9, 10, predictive: 1),
                     new Spawn("Red Flaming Skull", 8, coolDown: 5000),
                     new Spawn("Blue Flaming Skull", 10, coolDown: 1000),
                     new Reproduce("Red Flaming Skull", 10, 8, 5000),
                     new Reproduce("Blue Flaming Skull", 10, 10, 1000)
+                        )
                 ),
                 new MostDamagers(3,
                     LootTemplates.StatIncreasePotionsLoot()
@@ -42,6 +45,7 @@ namespace wServer.logic
                     new ItemLoot("Orb of Conflict", 0.005)
                 )
             )
+            
             .Init("Red Flaming Skull",
                 new State(
                     new Prioritize(
@@ -66,6 +70,7 @@ namespace wServer.logic
 
             .Init("Hermit God",
                 new State(
+                    new DropPortalOnDeath("Ocean Trench Portal", percent: 75, dropDelaySec: 2),
                     new CopyDamageOnDeath("Hermit God Drop"),
                     new State("invis",
                         new SetAltTexture(3),
@@ -99,7 +104,8 @@ namespace wServer.logic
                         new InvisiToss("Hermit God Tentacle", 5, 225, 90000001, coolDownOffset: 0),
                         new InvisiToss("Hermit God Tentacle", 5, 270, 90000001, coolDownOffset: 0),
                         new InvisiToss("Hermit God Tentacle", 5, 315, 90000001, coolDownOffset: 0),
-                        //new InvisiToss("Hermit God Drop", 5, 0, coolDown: 90000001, coolDownOffset: 0),
+                        new InvisiToss("Hermit God Drop", 5, 0, coolDown: 90000001, coolDownOffset: 0),
+                        new InvisiToss("Hermit God Drop", 5, 0, coolDown: 90000001, coolDownOffset: 0),
 
                         //new Spawn("Hermit God Tentacle", 8, 8, coolDown:9000001),
                         new TimedTransition(1000, "check")
@@ -180,7 +186,9 @@ namespace wServer.logic
                 new MostDamagers(3,
                     new OnlyOne(
                         new ItemLoot("Potion of Dexterity", 1),
-                        new ItemLoot("Potion of Vitality", 1)
+                        new ItemLoot("Potion of Defense", 0.1),
+                        new ItemLoot("Potion of Attack", 1),
+                        new ItemLoot("Potion of Vitality", 0.1)
                     )
                 ),
                 new Threshold(0.05,

@@ -79,11 +79,20 @@ namespace wServer.logic
                         new Suicide()
                         )
                     ),
-                new MostDamagers(3,
+                new MostDamagers(5,
+                    LootTemplates.StatIncreasePotionsLoot()
+                       ),
+                new MostDamagers(5,
+                    LootTemplates.StatIncreasePotionsLoot()
+                       ),
+                new MostDamagers(5,
+                    LootTemplates.StatIncreasePotionsLoot()
+                       ),
+                new MostDamagers(5,
                     LootTemplates.StatIncreasePotionsLoot()
                 ),
                 new Threshold(0.05,
-                    new ItemLoot("Shield of Ogmur", 0.005),
+                    new ItemLoot("Shield of Ogmur", 0.01),
                     new TierLoot(8, ItemType.Weapon, 0.2),
                     new TierLoot(9, ItemType.Weapon, 0.175),
                     new TierLoot(10, ItemType.Weapon, 0.125),

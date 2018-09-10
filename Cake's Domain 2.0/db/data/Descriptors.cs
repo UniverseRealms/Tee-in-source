@@ -330,8 +330,10 @@ public enum ActivateEffects
     Fame150,
     Fame100,
     Fame500,
+    GoldTesting,
     Fame1000,
-    Fame5000,
+    Fame999999,
+    Gold999999,
     LootBox
 }
 
